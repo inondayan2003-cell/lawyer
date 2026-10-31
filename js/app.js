@@ -286,7 +286,7 @@ function letterBlock(key, title, text, subject, r) {
     <div class="send-box">
       <h4>📨 שליחה</h4>
       <p>${esc(send.where)}</p>
-      ${send.links.map((l, i) => `<button class="btn primary" data-open="${esc(l.url)}" data-copyfirst="${key}">${i === 0 ? 'שלח: העתק את המכתב ופתח את ' : 'פתח: '}${esc(l.label)}</button>`).join('')}
+      ${send.links.map((l, i) => `<a class="btn primary" href="${esc(l.url)}" target="_blank" rel="noopener" data-open="${esc(l.url)}" data-copyfirst="${key}">${i === 0 ? 'שלח: העתק את המכתב ופתח את ' : 'פתח: '}${esc(l.label)}</a>`).join('')}
       ${send.allowEmail ? `
         <label class="field"><span class="label">כתובת המייל שמודפסת על הדוח (אם יש)</span>
           <input type="email" data-bind="details.authorityEmail" value="${esc(email)}" placeholder="למשל: dohot@city.muni.il"></label>
@@ -432,7 +432,7 @@ function letterText(key) {
 
 function printLetter(text) {
   const w = window.open('', '_blank');
-  if (!w) { toast('הדפדפן חסם חלון חדש. אפשרו חלונות קופצים ונסו שוב.'); return; }
+  if (!w) { toast('לא ניתן לפתוח חלון הדפסה כאן. העתיקו את המכתב והדביקו אותו במסמך כדי להדפיס.'); return; }
   w.document.write(`<!DOCTYPE html><html lang="he" dir="rtl"><head><meta charset="utf-8"><title>מכתב</title>
     <style>body{font-family:Arial,"David",sans-serif;font-size:14pt;line-height:1.6;margin:2.5cm;white-space:pre-wrap}</style></head>
     <body>${esc(text)}</body></html>`);
@@ -518,7 +518,7 @@ $app.addEventListener('change', (e) => {
 document.addEventListener('click', async (e) => {
   const el = e.target.closest('[data-go],[data-action],[data-copy],[data-print],[data-reset],[data-open],[data-mail]');
   if (!el) return;
-  if (el.tagName === 'A') e.preventDefault();
+  if (el.tagName === 'A' && !el.dataset.open) e.preventDefault();
 
   if (el.dataset.go) { go(el.dataset.go); return; }
 
@@ -533,7 +533,12 @@ document.addEventListener('click', async (e) => {
   }
   if (action === 'paid') { S.paid = true; go('results'); return; }
   if (action === 'reset') {
-    if (!confirm('למחוק את הדוח הזה ולהתחיל דוח חדש?')) return;
+    if (!el.dataset.armed) {
+      el.dataset.armed = '1';
+      el.textContent = 'לחצו שוב כדי למחוק ולהתחיל דוח חדש';
+      setTimeout(() => { delete el.dataset.armed; el.textContent = 'דוח חדש'; }, 4000);
+      return;
+    }
     S = blank();
     photoUrl = null;
     ocrState = null;
@@ -548,8 +553,8 @@ document.addEventListener('click', async (e) => {
   if (el.dataset.print) { printLetter(letterText(el.dataset.print)); return; }
   if (el.dataset.reset) { delete S.edits[el.dataset.reset]; save(); render(); return; }
   if (el.dataset.open) {
-    if (el.dataset.copyfirst) await copyText(letterText(el.dataset.copyfirst));
-    window.open(el.dataset.open, '_blank', 'noopener');
+    // הקישור עצמו נפתח בלשונית חדשה. כאן רק מעתיקים את המכתב.
+    if (el.dataset.copyfirst) copyText(letterText(el.dataset.copyfirst));
     toast('המכתב הועתק. הדביקו אותו בטופס שנפתח, וצרפו צילום של הדוח.');
     return;
   }
@@ -558,6 +563,7 @@ document.addEventListener('click', async (e) => {
     if (!to || !/@/.test(to)) { toast('הקלידו קודם את כתובת המייל שמודפסת על הדוח.'); return; }
     const body = letterText(el.dataset.mail);
     await copyText(body);
+    toast(`המכתב הועתק. אם המייל לא נפתח, פתחו מייל חדש ל-${to} והדביקו.`);
     window.location.href = mailtoLink(to, el.dataset.subject, body);
   }
 });
