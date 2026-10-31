@@ -1,0 +1,14 @@
+{
+  "scenario": "07-defective-product-small-claim.md",
+  "duration_s": 173.1,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Bash:cd <tmp>",
+    "Read:",
+    "Bash:python3 -c \"\nimport datetime as d\nfor s in ['2026-10-01','20"
+  ],
+  "cost_usd": 1.0424474,
+  "stderr_tail": ""
+}

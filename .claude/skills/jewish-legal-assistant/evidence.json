@@ -1,0 +1,1498 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "jewish-legal-assistant",
+  "generated_at": "2026-10-30",
+  "how_verified": "Statutes and regulations were downloaded as raw wikitext from he.wikisource.org (action=raw) and every quote below was extracted from that text by the build script, which fails if the anchor phrase is missing. Web pages were fetched live; gov.il pages (which return 403 to scripts) were verified through Wayback Machine captures, recorded in the 'wayback' field. Every number in the 'numbers' array appears in the claim text or the quote.",
+  "structural_numbers": [
+    {
+      "value": "403",
+      "reason": "HTTP status code in the website-check instructions (a blocked site), not a legal figure."
+    }
+  ],
+  "claims": [
+    {
+      "id": "cpl-229h-payment-is-admission",
+      "claim": "Criminal Procedure Law s.229(h) (סעיף 229(ח)): a person who pays the fine is treated as having confessed before the court, been convicted and served the sentence. Exceptions: the prosecutor cancelled the notice under s.229(c), or the court agreed to try a late request under s.230.",
+      "numbers": [
+        "229",
+        "230"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…תהיה בכתב, ותהיה נתמכת בתצהיר המאמת את העובדות המפורטות בה. התובע רשאי להחליט בבקשה על יסוד התצהיר בלבד או במעמד המבקש בלבד והחלטתו אינה ניתנת לערעור. (ח) שילם אדם את הקנס רואים אותו כאילו הודה באשמה בפני בית המשפט, הורשע ונשא את עונשו. אולם הוראות סעיף קטן זה לא יחולו על אדם ששילם את הקנס ותובע ביטל את הודעת תשלום הקנס לפי סעיף קטן (ג) או על אדם שבית המשפט החליט לקיים את משפטו אף על פי שהודיע באיחור על רצונו להישפט כאמור בסעיף 230. (ח1) בוטלה הודעת תשלום קנס לאחר שהקנס שולם, יוחזר סכום הקנס ששולם. (ח2) לא שילם אדם את…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "templates/parking-cancellation.md"
+      ]
+    },
+    {
+      "id": "cpl-229a-windows",
+      "claim": "Criminal Procedure Law s.229(a) (סעיף 229(א)): pay within 90 days of service unless (1) a cancellation request (בקשה לביטול) is filed with the prosecutor within 30 days of service, or within 90 days where the owner seeks to prove under Traffic Ordinance s.27B who drove, parked or held the vehicle; or (2) notice of a wish to be tried is given within 90 days. After a cancellation request, a request to be tried may be filed only within 30 days of service of the decision on it.",
+      "numbers": [
+        "229",
+        "90",
+        "30",
+        "27"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…הקנס (א) מי שנמסרה לו הודעת תשלום קנס, ישלם, תוך תשעים ימים מיום ההמצאה, את הקנס הנקוב בהודעה, לחשבון שצויין בה, זולת אם פעל באחת מדרכים אלה: (1) הגיש לתובע, תוך שלושים ימים מיום ההמצאה, בקשה לביטול כאמור בסעיף קטן (ג), ולעניין בקשה לביטול כאמור לגבי עבירת תעבורה מהטעם שהעבירה בוצעה שלא בידי מי שקיבל את ההודעה, ובעל הרכב מבקש להוכיח מי נהג ברכב, העמידו או החנהו, בעת ביצוע העבירה, או למי מסר את החזקה ברכב, כאמור בסעיף 27ב לפקודת התעבורה – אם הגיש לתובע את הבקשה לביטול בתוך תשעים ימים מיום ההמצאה; החלטת התובע בבקשה לפי פסקה זו סופית, ואולם רשאי הנקנס להודיע על רצונו להישפט; (2) הודיע, תוך תשעים ימים מיום ההמצאה, בדרך שנקבעה בתקנות, שיש ברצונו להישפט על העבירה. מי שהגיש בקשה לביטול כאמור בפסקה (1) לא יהיה רשאי להודיע על רצונו להישפט כאמור בפסקה (2), אלא תוך שלושים ימים מיום המצאת ההודעה על החלטת התובע בענין הביטול. (ב) לא שילם אדם את הקנס במועד ולא הודיע שיש ברצונו להישפט על העבירה, יתווספו על הקנס תוספת פיגור, ריבית שקלית ודמי פיגורים כאמור בסעיף 67 לחוק העונשין, התשל״ז–1977; גביית הקנס תיעשה כאמור בסעיפים 68 ו־70 לחוק העונשין, התשל״ז–1977, וסעיף 69 לאותו חוק לא יחול. (ג) תובע רשאי לבטל הודעת תשלום קנס אם נוכח כי לא נעברה עבירה או כי היא נעברה שלא בידי מי שקיבל את ההודעה, או אם היה סבור…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md",
+        "references/sources.md",
+        "templates/driver-declaration.md",
+        "templates/natz-objection.md",
+        "templates/parking-cancellation.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "cpl-229b-surcharge",
+      "claim": "Criminal Procedure Law s.229(b) (סעיף 229(ב)): if the fine is not paid on time and no request to be tried was made, a late-payment addition, shekel interest and late charges under s.67 of the Penal Law are added. There is no 'doubling after 30 days'.",
+      "numbers": [
+        "229",
+        "67",
+        "30"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…שהגיש בקשה לביטול כאמור בפסקה (1) לא יהיה רשאי להודיע על רצונו להישפט כאמור בפסקה (2), אלא תוך שלושים ימים מיום המצאת ההודעה על החלטת התובע בענין הביטול. (ב) לא שילם אדם את הקנס במועד ולא הודיע שיש ברצונו להישפט על העבירה, יתווספו על הקנס תוספת פיגור, ריבית שקלית ודמי פיגורים כאמור בסעיף 67 לחוק העונשין, התשל״ז–1977; גביית הקנס תיעשה כאמור בסעיפים 68 ו־70 לחוק העונשין, התשל״ז–1977, וסעיף 69 לאותו חוק לא יחול. (ג) תובע רשאי לבטל הודעת תשלום קנס אם נוכח כי לא נעברה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "cpl-229c-prosecutor-cancel",
+      "claim": "Criminal Procedure Law s.229(c) (סעיף 229(ג)): a prosecutor may cancel a fine notice where no offence was committed, where it was committed by someone other than the recipient, or where the circumstances as a whole are unsuitable for continuing the proceedings. This is discretion, not a right, and the source of the criminal-track 'warning' practice.",
+      "numbers": [
+        "229"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…התשל״ז–1977; גביית הקנס תיעשה כאמור בסעיפים 68 ו־70 לחוק העונשין, התשל״ז–1977, וסעיף 69 לאותו חוק לא יחול. (ג) תובע רשאי לבטל הודעת תשלום קנס אם נוכח כי לא נעברה עבירה או כי היא נעברה שלא בידי מי שקיבל את ההודעה, או אם היה סבור שנסיבות העניין בכללותן אינן מתאימות להמשך קיום ההליכים; התובע יערוך רישום של הודעת תשלום קנס שביטל וינמק את…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "cpl-229d-rejection",
+      "claim": "Criminal Procedure Law s.229(d) (סעיף 229(ד)): if the prosecutor refuses to cancel, the requester is notified, and the late-payment provisions of s.229(b) apply as if no cancellation request had been filed. So filing does not stop the payment clock.",
+      "numbers": [
+        "229"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…(ד) החליט התובע שלא לבטל את הודעת תשלום הקנס, ימציא למבקש הודעה על כך ואולם הוראות סעיף קטן (ב) יחולו כאילו לא הוגשה הבקשה לביטול לתובע. (ה) תובע רשאי לדון בבקשה שהוגשה לאחר המועדים האמורים בסעיף קטן (א), אם שוכנע שהבקשה לא הוגשה במועד בשל…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "cpl-229e-late-request",
+      "claim": "Criminal Procedure Law s.229(e) (סעיף 229(ה)): the prosecutor may consider a late request if it was not filed on time for reasons beyond the requester's control that prevented filing, and it was filed immediately once the obstacle was removed.",
+      "numbers": [
+        "229"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…(ה) תובע רשאי לדון בבקשה שהוגשה לאחר המועדים האמורים בסעיף קטן (א), אם שוכנע שהבקשה לא הוגשה במועד בשל סיבות שלא היו תלויות במבקש ושמנעו ממנו להגישה במועד והיא הוגשה מיד לאחר שהוסרה המניעה. (ו) מי שלא הודיע כאמור בסעיף קטן (א) שברצונו להישפט ולא שילם במועד את הקנס, רשאי תובע לפטור אותו, על פי בקשתו,…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "cpl-229fg-surcharge-waiver",
+      "claim": "Criminal Procedure Law s.229(f)-(g) (סעיף 229(ו)-(ז)): the prosecutor may waive the late-payment addition, interest and charges where there were reasonable causes for non-payment or special personal circumstances; the request must be in writing and supported by an affidavit.",
+      "numbers": [
+        "229"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…במועד והיא הוגשה מיד לאחר שהוסרה המניעה. (ו) מי שלא הודיע כאמור בסעיף קטן (א) שברצונו להישפט ולא שילם במועד את הקנס, רשאי תובע לפטור אותו, על פי בקשתו, מתשלום של תוספת הפיגור, הריבית השקלית או דמי הפיגורים לפי סעיף קטן (א), כולם או מקצתם, אם שוכנע כי היו סיבות סבירות לאי־תשלום החוב, כולו או חלקו, במועדו, או כי קיימות נסיבות אישיות מיוחדות של החייב המצדיקות פטור כאמור. (ז) בקשה לפי סעיף קטן (ו), תהיה בכתב, ותהיה נתמכת בתצהיר המאמת את העובדות המפורטות בה. התובע רשאי להחליט בבקשה על יסוד התצהיר בלבד או במעמד המבקש בלבד והחלטתו אינה ניתנת לערעור. (ח) שילם אדם את הקנס רואים אותו כאילו הודה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "cpl-230-late-trial",
+      "claim": "Criminal Procedure Law s.230 (סעיף 230): the court may hold the trial even if the request to be tried was late, where the s.229(e) conditions are met or for other special reasons; and if the person is convicted and fined, the fine may not be lower than the amount in the fine notice unless the court sees special circumstances.",
+      "numbers": [
+        "230",
+        "229"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…למשפט תוך שנה מיום שנתקבלה הודעתו; בית המשפט רשאי, לקיים את המשפט גם אם אותו אדם ביקש להישפט באיחור, ובלבד שהתקיימו התנאים האמורים בסעיף 229(ה), בשינויים המחויבים, או מנימוקים מיוחדים אחרים שיפרט בהחלטתו; הורשע האדם בבית המשפט על העבירה ונגזר דינו לקנס, לא יפחת הקנס מהסכום הנקוב בהודעת תשלום הקנס, אלא אם כן ראה בית המשפט נסיבות מיוחדות המצדיקות הפחתתו. סעיף 230א – (פקע). סעיף 230ב – (פקע). סעיף 230ג – (פקע). סעיף 230ד – (פקע). סעיף 230ה – (פקע). סעיף 230ו – (פקע). סעיף 230ז – (פקע). סעיף 230ח – (פקע). סעיף 230ט –…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "cpl-225a-one-year",
+      "claim": "Criminal Procedure Law s.225A(a) (סעיף 225א(א)): no fine notice may be served once a year has passed since the fine offence.",
+      "numbers": [
+        "225"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…קנס (א) עברה שנה מיום ביצוע עבירת קנס, לא יוגש עליה כתב אישום ולא תומצא בעניינה הודעת תשלום קנס לפי סעיף 228(ב); ואולם, בעבירת קנס שהיא עבירת תעבורה כמשמעותה בפקודת התעבורה, ובעל הרכב הוכיח כי לא…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "cpl-225a-a1-camera-4-months",
+      "claim": "Criminal Procedure Law s.225A(a1)(1) (סעיף 225א(א1)(1)): for a traffic offence based on a vehicle photograph under Traffic Ordinance s.27A or 27A1 (cameras, including bus-lane cameras), no notice may be served on the owner if it had not been SENT (טרם נשלחו) and 4 months have passed since the offence. The limit counts to the sending date, not the receipt date.",
+      "numbers": [
+        "225",
+        "4",
+        "27"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…האמורה, ניתן להגיש כתב אישום או להמציא הזמנה למשפט או הודעת תשלום קנס, למי שנהג ברכב אם לא עברו שנתיים מיום ביצוע העבירה. (א1) היתה העבירה עבירת תעבורה כמשמעותה בפקודת התעבורה, שהחשד לביצועה מבוסס על צילום רכב כאמור בסעיף 27א או 27א1 לפקודה האמורה, לא יוגש עליה כתב אישום ולא יומצאו לבעל הרכב בענינה הזמנה או הודעת תשלום קנס, אם כתב האישום, ההזמנה או הודעת תשלום הקנס טרם נשלחו ועברה תקופה כמפורט להלן: (1) ארבעה חודשים ממועד ביצוע העבירה; (2) (נמחקה). (א2) על אף האמור בפסקה (1)…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "cpl-225a-a2-driver",
+      "claim": "Criminal Procedure Law s.225A(a2) (סעיף 225א(א2)): where the owner proved non-liability under s.27B, the driver may be pursued within a year of the offence or 3 months from that proof, whichever is later, but not after two years.",
+      "numbers": [
+        "225",
+        "3",
+        "27"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…קנס, אם כתב האישום, ההזמנה או הודעת תשלום הקנס טרם נשלחו ועברה תקופה כמפורט להלן: (1) ארבעה חודשים ממועד ביצוע העבירה; (2) (נמחקה). (א2) על אף האמור בפסקה (1) שבסעיף קטן (א1), הוכיח בעל הרכב כי לא חלה עליו אחריות פלילית לעבירה לפי סעיף 27ב לפקודת התעבורה, ניתן להגיש כתב אישום או להמציא הזמנה אם לא עברה שנה מיום ביצוע העבירה או אם לא חלפו שלושה חודשים מהמועד שבו הוכיח בעל הרכב כי לא חלה עליו אחריות כאמור, לפי המאוחר, ובלבד שלא עברו שנתיים מיום ביצוע העבירה. (א3) בסעיף זה, ”רכב חדש“ – (נמחקה);…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "csdp-regs-44a-mail-15-days",
+      "claim": "Criminal Procedure Regulations reg. 44A (תקנה 44א): a fine notice sent by registered mail is deemed duly served, even without a signed receipt, once 15 days have passed since it was sent, unless the recipient proves non-receipt for reasons beyond their control.",
+      "numbers": [
+        "44",
+        "15"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "…לחוק, דרך כלל או לענין מסויים. (ד) הזמנה למשפט לגבי עבירות המנויות בתקנת משנה (ב)(2) תהיה לפי טופס 8ד שבתוספת. (ה) (פקעה). סעיף 44א – חזקת מסירה בעבירות תעבורה שעליהן חל סעיף 239א לחוק ובעבירות קנס רואים את ההודעה על ביצוע העבירה, ההודעה לתשלום קנס או ההזמנה למשפט לענין עבירת קנס כאילו הומצאה כדין גם בלא חתימה על אישור המסירה, אם חלפו חמישה עשר ימים מיום שנשלחה בדואר רשום, זולת אם הוכיח הנמען שלא קיבל את ההודעה או את ההזמנה מסיבות שאינן תלויות בו ולא עקב הימנעותו מלקבלן. סעיף 44ב – העתק הזמנה לבית המשפט הומצאה הזמנה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/sources.md"
+      ]
+    },
+    {
+      "id": "parshanut-10-counting",
+      "claim": "Interpretation Law s.10 (סעיף 10 לחוק הפרשנות): (a) a period of days from an event does not count the day of the event; (b) a period of months ends on the day with the same number as the event day; (c) rest days count, unless they are the last days of the period (so a deadline falling on a Saturday or holiday moves to the next day).",
+      "numbers": [
+        "10"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%A9%D7%A0%D7%95%D7%AA",
+      "quote": "…10 – תקופות (א) מקום שנקבעה תקופה קצובה במספר ימים או שבועות מיום פלוני, אותו יום לא יבוא במנין. (ב) תקופה קצובה במספר חדשים או שנים לאחר אירוע פלוני תסתיים בחדשה האחרון ביום שמספרו בחודש כמספר יום האירוע, ואם היה החודש חסר אותו יום – ביום האחרון של החודש. (ג) במנין ימי תקופה יבואו גם ימי מנוחה, פגרה או שבתון שעל פי חיקוק, זולת אם הם הימים האחרונים שבתקופה. סעיף 11 – מקום שלא נקבע זמן הסמכה או חיוב לעשות דבר, בלי קביעת זמן לעשייתו – משמעם שיש סמכות או חובה לעשותו…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/sources.md"
+      ]
+    },
+    {
+      "id": "admin-47c-stages",
+      "claim": "Administrative Traffic Violations Law s.47(c) (סעיף 47(ג)): applies in stages. From the commencement date (8.2.2026): violations whose First Schedule fine is 100 to 500 NIS, excluding Traffic Regulation 54 (speeding). Six months after commencement (8.8.2026): violations of 750 to 1,500 NIS and Regulation 54 offences.",
+      "numbers": [
+        "47",
+        "100",
+        "500",
+        "750",
+        "1,500",
+        "54",
+        "8.2.2026",
+        "8.8.2026"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…שנה. (ג) חוק זה יחול בהדרגה לגבי הפרות תעבורה, החל מהמועדים כמפורט להלן, לפי העניין: (1) לגבי הפרות תעבורה ששיעור הקנס שנקבע לגביהן בתוספת הראשונה הוא 100 עד 500 שקלים חדשים, למעט הפרות תעבורה לפי תקנה 54 לתקנות התעבורה – ביום התחילה; (2) לגבי הפרות תעבורה ששיעור הקנס שנקבע לגביהן בתוספת הראשונה הוא 750 עד 1,500 שקלים חדשים ולגבי הפרות תעבורה לפי תקנה 54 לתקנות התעבורה – בתום שישה חודשים מיום התחילה. סעיף 48 – הוראות מעבר (א) הוראות חוק זה לא יחולו לגבי עבירה של ברירת משפט כאמור בסעיף 228(א) לחוק סדר הדין הפלילי המהווה הפרת תעבורה, שעבר אדם ערב יום התחילה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "admin-commencement-8-2-2026",
+      "claim": "The commencement date of the Administrative Traffic Violations Law was deferred to 8.2.2026.",
+      "numbers": [
+        "8.2.2026"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…זה. מועד התחילה של החוק נדחה ליום 8.2.2026 (ק״ת תשפ״ו, 190). (ב)(1) על אף האמור…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md",
+        "templates/natz-objection.md"
+      ]
+    },
+    {
+      "id": "admin-48a-transitional",
+      "claim": "Administrative Traffic Violations Law s.48(a) (סעיף 48(א)): the Law does not apply to a fine offence committed before the relevant stage date under s.47(c); the Criminal Procedure Law continues to apply to it. Example used in the skill: a speeding offence from May 2026 stays on the criminal track even if the notice arrives in October 2026, since speeding moved on 8.8.2026.",
+      "numbers": [
+        "48",
+        "47",
+        "2026"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…מעבר (א) הוראות חוק זה לא יחולו לגבי עבירה של ברירת משפט כאמור בסעיף 228(א) לחוק סדר הדין הפלילי המהווה הפרת תעבורה, שעבר אדם ערב יום התחילה כאמור בסעיף 47(ג), וימשיכו לחול לגביה ההוראות לפי חוק סדר הדין הפלילי ולפי פקודת התעבורה כנוסחן ערב המועד כאמור. (ב) כל עוד לא נקבעו הוראות לעניין נסיבות מחמירות הקשורות באדם שביצע הפרת תעבורה או בביצוע הפרת התעבורה, לפי סעיף 2(ג), יחולו הוראות…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "admin-4a6-points-on-notice",
+      "claim": "Administrative Traffic Violations Law s.4(a)(6) (סעיף 4(א)(6)): the notice must state the number of points that will be recorded for the violation.",
+      "numbers": [
+        "4",
+        "6"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…לתשלומו; (6) מספר הנקודות שנקבע לגבי הפרת התעבורה לפי פקודת התעבורה אשר יירשמו לחובתו של המפר בשל ההפרה, וכן דרכי התקשרות עם רשות הרישוי לקבלת מידע נוסף כאמור בסעיף…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "admin-5a3-mail-15-days",
+      "claim": "Administrative Traffic Violations Law s.5(a)(3) (סעיף 5(א)(3)): a notice sent by registered mail is deemed duly served once 15 days have passed since sending, unless the recipient proves non-receipt for reasons beyond their control.",
+      "numbers": [
+        "5",
+        "15"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…המפר הרשום במרשם האוכלוסין לפי חוק מרשם האוכלוסין, התשכ״ה–1965; נשלחה למפר הודעה על החלטה להטיל קנס בדואר רשום כאמור, יראו את ההודעה כאילו הומצאה כדין אם חלפו 15 ימים מיום שנשלחה בדואר רשום, אלא אם כן הוכיח הנמען שלא קיבל את ההודעה מסיבות שאינן תלויות בו ולא עקב הימנעותו מלקבלה; (4) לעניין הפרת תעבורה שהיא הפרה של…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "admin-6-service-limits",
+      "claim": "Administrative Traffic Violations Law s.6 (סעיף 6): (a) no notice once a year has passed since the violation and none was sent; (b)(1) for a camera-based violation (Traffic Ordinance s.27A/27A1), no notice once 4 months have passed and none was sent; (b)(2) where the owner proved another driver, the driver may be served within a year or 4 months from the proof, whichever is later, but within two years.",
+      "numbers": [
+        "6",
+        "4",
+        "27"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…או למי מסר את החזקה ברכב, או הוכח שהרכב נלקח ממנו בלי ידיעתו ובלי הסכמתו כאמור בסעיף 27ב לפקודת התעבורה, ניתן להמציא הודעה על החלטה להטיל קנס בשל ההפרה למי שנהג ברכב, אם לא עברו שנתיים מיום ביצועה. (ב) הייתה הפרת תעבורה הפרה שהיסוד הסביר לביצועה הוא צילום רכב כאמור בסעיפים 27א או 27א1 לפקודת התעבורה, יחולו הוראות אלה: (1) לא תומצא הודעה על החלטה להטיל קנס בשל ההפרה אם עברו ארבעה חודשים מיום ביצועה וטרם נשלחה הודעה כאמור; (2) על אף האמור בפסקה (1), טען בעל הרכב כי לא ביצע את הפרת התעבורה והוכיח מי נהג ברכב, העמידו או החנהו, בעת ביצוע ההפרה, או למי מסר את החזקה ברכב, או הוכח שהרכב נלקח ממנו בלי ידיעתו ובלי הסכמתו כאמור בסעיף 27ב לפקודת התעבורה, ניתן להמציא הודעה על החלטה להטיל קנס בשל ההפרה למי שנהג ברכב אם לא עברה שנה מיום ביצוע ההפרה או אם לא עברו ארבעה חודשים מהמועד שבו הוכיח בעל הרכב כי לא חלה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "templates/natz-objection.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "admin-8-hasagah",
+      "claim": "Administrative Traffic Violations Law s.8 (סעיף 8): (a) hasagah (השגה) within 30 days of service, or 90 days where the ground is that the violator did not commit it under Traffic Ordinance s.27B; (b) a late hasagah may be heard if the delay was beyond the violator's control; (c) decision within 45 days, silence does not cancel the fine, and payment is due 30 days after a rejection; (d) filing an arar bars a hasagah on the same decision.",
+      "numbers": [
+        "8",
+        "30",
+        "90",
+        "45",
+        "27"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…קנס (א) מפר רשאי להגיש לגורם מוסמך השגה על החלטה להטיל קנס (בחוק זה – השגה), בתוך 30 ימים מיום ההמצאה, ואם ההשגה היא מהטעם שהפרת התעבורה לא בוצעה בידי המפר לפי הוראות סעיף 27ב לפקודת התעבורה – בתוך 90 ימים מיום ההמצאה. (ב) גורם מוסמך רשאי לדון בהשגה שהוגשה לאחר שחלפו התקופות כאמור בסעיף קטן (א), אם שוכנע שההשגה לא הוגשה במועד בשל סיבות שלא היו תלויות במפר ושמנעו ממנו להגישה במועד והיא הוגשה מייד לאחר שהוסרה המניעה. (ג) גורם מוסמך יחליט בהשגה ויודיע למפר בכתב על החלטתו, בצירוף נימוקיו, בהקדם ולא יאוחר מ־45 ימים מיום שקיבל את ההשגה; חלפה התקופה האמורה ולא התקבלה החלטה בהשגה, אין בכך כדי לבטל את ההחלטה להטיל קנס, והמועד לתשלום הקנס יהיה 30 ימים מיום שניתנה החלטה לדחות את ההשגה. (ד) מפר שהגיש ערר על החלטה להטיל קנס אינו רשאי להגיש השגה בשל אותה החלטה. סעיף 9 – מועד לתשלום קנס בשל הפרת תעבורה (א) מפר שנמסרה לו הודעה על החלטה להטיל קנס ישלם, בתוך 90 ימים מיום ההמצאה, את הקנס הנקוב בהודעה כאמור, אלא אם כן הגיש השגה או ערר. (ב) שילם מפר את הקנס בשל הפרת התעבורה כאמור בסעיף קטן (א), רואים את ההחלטה להטיל קנס בעניינו כהחלטה סופית להטיל קנס. (ג) בוטלה החלטה להטיל קנס לאחר ששילם המפר את הקנס בשל הפרת התעבורה, יוחזר למפר סכום הקנס ששולם. (ד) לא שילם מפר את הקנס בשל הפרת תעבורה כאמור בסעיף קטן (א),…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md",
+        "references/sources.md",
+        "templates/driver-declaration.md",
+        "templates/natz-objection.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "admin-9-payment",
+      "claim": "Administrative Traffic Violations Law s.9 (סעיף 9): (a) pay within 90 days of service unless a hasagah or arar was filed; (b) paying makes the decision to impose the fine a final decision.",
+      "numbers": [
+        "9",
+        "90"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…(א) מפר שנמסרה לו הודעה על החלטה להטיל קנס ישלם, בתוך 90 ימים מיום ההמצאה, את הקנס הנקוב בהודעה כאמור, אלא אם כן הגיש השגה או ערר. (ב) שילם מפר את הקנס בשל הפרת התעבורה כאמור בסעיף קטן (א), רואים את ההחלטה להטיל קנס בעניינו כהחלטה סופית להטיל קנס. (ג) בוטלה החלטה להטיל קנס לאחר ששילם המפר את הקנס בשל הפרת התעבורה,…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "admin-10-surcharge",
+      "claim": "Administrative Traffic Violations Law s.10 (סעיף 10): a fine not paid by its due date carries a late-payment addition of 30% of the fine (s.10(b)(1)) plus shekel interest and linkage (s.10(b)(2)); for fines imposed by a municipal inspector the authority may waive it on written request where non-payment was beyond the person's control or caused by an authority's malfunction (s.10(c)-(d)).",
+      "numbers": [
+        "10",
+        "30"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…(ב)(1) שיעור תוספת הפיגור יהיה שלושים אחוזים מהקנס בשל הפרת התעבורה או מחלקו שלא שולם, לפי העניין. (2) על קנס שלא שולם במועדו, כולו או חלקו, יתווספו בתקופת הפיגור ריבית שקלית ודמי פיגורים עד לתשלומו, ויחולו הוראות חוק פסיקת ריבית והצמדה, התשכ״א–1961, בשינויים המחויבים. (ג) לעניין החלטה להטיל קנס שנתן מפקח שהוא פקח או עובד רשות מקומית כאמור בסעיף 28, רשאי גורם מוסמך לפטור אדם, על פי בקשתו, מתשלום תוספת פיגור, כולה או חלקה, אם נוכח שהעילה לאי־תשלום במועד היא אחת מאלה: (1) נבצר מהמפר לשלם את הקנס במועדו בשל סיבה שאינה תלויה בו; (2) הסיבה לחיוב בתוספת הפיגור יסודה בתקלה של רשויות המדינה או של רשות מקומית. (ד) בקשה לפי סעיף קטן (ג) תהיה בכתב, והגורם המוסמך רשאי להחליט בה על יסוד הכתב בלבד. (ה) סכום ששולם או שנגבה על חשבון קנס בשל הפרת תעבורה שהתווספה עליו תוספת פיגור, ייזקף תחילה לחשבון ההוצאות לנקיטת הליכי גביית קנס בשל הפרת תעבורה שלא שולם במועדו לפי חוק זה, לאחר מכן לחשבון תוספת הפיגור ולבסוף לחשבון הקנס. סעיף 11 – גבייה (א) קנס…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "admin-19-arar",
+      "claim": "Administrative Traffic Violations Law s.19 (סעיף 19): (b) arar (ערר) to the traffic tribunal within 90 days of service, or within 30 days of the decision on a hasagah; (c) the tribunal may extend the time for special reasons; (d) after an arar, payment is due 30 days after the final decision.",
+      "numbers": [
+        "19",
+        "90",
+        "30"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…(ב) ערר לפי סעיף זה יוגש בתוך 90 ימים מיום ההמצאה, ואם הגיש העורר השגה בשל אותה הפרת תעבורה – בתוך 30 ימים מיום שנמסרה לו ההחלטה בהשגה. (ג) בית דין לתעבורה רשאי להאריך את המועדים האמורים בסעיף קטן (ב), מטעמים מיוחדים שיירשמו, ולעניין זה יראו תקלה במערכת המקוונת שמנעה הגשת ערר באחד מהמועדים הקבועים באותו סעיף קטן, כטעם מיוחד לפי סעיף קטן זה. (ד) הגיש מפר ערר על החלטה להטיל קנס, יהיה המועד לתשלום הקנס בשל הפרת התעבורה 30 ימים מיום שניתנה החלטה סופית של בית דין לתעבורה בערר או פסק דין של בית משפט, לפי העניין, המאשרים את ההחלטה להטיל קנס, אך רשאי בית דין לתעבורה או בית משפט, לפי העניין, לצוות שהקנס בשל הפרת התעבורה ישולם בתוך תקופה שקבע ובתנאים שקבע, ורשאי הוא לקבוע שעל סכום הקנס שתשלומו נדחה או על חלק ממנו תשולם תוספת פיגור כאמור בסעיף 10 לגבי תקופת הדחייה. סעיף 20 – ניהול הליכי ערר באמצעות מערכת מקוונת (א) בית דין לתעבורה ינהל את הליכי הערר, לרבות הגשת כתבי בי־דין ומסמכים נוספים וצפייה בהחלטות ובמועדי דיון, באמצעות מערכת מקוונת כפי שקבע…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md",
+        "references/sources.md",
+        "templates/natz-objection.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "admin-20-online",
+      "claim": "Administrative Traffic Violations Law s.20 (סעיף 20): the traffic tribunal runs arar proceedings through an online system.",
+      "numbers": [
+        "20"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…(א) בית דין לתעבורה ינהל את הליכי הערר, לרבות הגשת כתבי בי־דין ומסמכים נוספים וצפייה בהחלטות ובמועדי דיון, באמצעות מערכת מקוונת כפי שקבע השר. פורסמו תקנות הפרות תעבורה מינהליות (סדרי הדין והמינהל בבית דין לתעבורה), התשפ״ו–2026. (ב) משרד המשפטים יפעיל עמדות…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "admin-12-refund-after-payment",
+      "claim": "Administrative Traffic Violations Law s.12 (סעיף 12) contemplates a tribunal accepting an arar after the fine was paid and ordering a refund with interest; Kol Zchut likewise says an arar may be filed even after payment if the deadline has not passed. So on the administrative track paying makes the decision final (s.9(b)) but does not by itself close the arar.",
+      "numbers": [
+        "12",
+        "9"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…לפי סעיף 10(ב)(1), כאילו הוא מס כמשמעותו בפקודה האמורה. סעיף 12 – החזר תשלום קנס החליט בית דין לתעבורה או בית משפט, לאחר ששולם קנס בשל הפרת תעבורה שהטיל מפקח שהוא פקח או עובד רשות מקומית כאמור בסעיף 28, לקבל ערר על החלטה להטיל קנס או ערעור על פסק דין בערר כאמור, והורה על החזרת סכום הקנס ששולם, יוחזר הסכום ששולם בתוספת ריבית שקלית, מיום תשלומו ועד יום החזרתו, ויחולו הוראות חוק פסיקת ריבית והצמדה,…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "kz-arar-after-payment",
+      "claim": "Kol Zchut (updated 10.8.2026): an arar to the traffic tribunal may be filed even if the fine was already paid, provided the arar deadline has not passed.",
+      "numbers": [],
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%93%D7%95%D7%97_%D7%AA%D7%A0%D7%95%D7%A2%D7%94_%D7%9C%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A7%D7%A0%D7%A1",
+      "quote": "…לעשות? ניתן להגיש ערר לבית הדין לתעבורה גם אם הקנס כבר שולם, בתנאי שלא חלף הזמן להגשת הערר. הגשתי השגה למשטרה על דוח שקיבלתי. חלפו 45 ימים…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch (page updated 10.8.2026), text grepped verbatim",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "id": "admin-first-schedule-natz-500",
+      "claim": "First Schedule item 24 of the Administrative Traffic Violations Law: failure to obey signs 501 or 503 (public-transport lane) under Traffic Regulation 22(a), fine tier 500 NIS. Since 500 NIS is in the stage-1 band, a bus-lane offence from 8.2.2026 is on the administrative track (hasagah, then arar, no request to be tried).",
+      "numbers": [
+        "24",
+        "501",
+        "503",
+        "22",
+        "500",
+        "8.2.2026"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "…(21) 22(א) אי־ציות לתמרור 815 250 (22) 22(א) אי־ציות לתמרור 407 1,000 (23) 22(א) אי־ציות לתמרורים 302, 304 באי־עצירה בלבד 250 (24) 22(א) אי־ציות לתמרורים 501 או 503 500 (25) 22(א) אי־ציות לתמרור או סימון האוסר עצירה 250…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md",
+        "templates/natz-objection.md"
+      ]
+    },
+    {
+      "id": "kz-municipal-parking-not-tribunal",
+      "claim": "Kol Zchut (updated 10.8.2026): the traffic tribunal has no jurisdiction over municipal parking tickets; if the municipality rejects the objection, the next step is a request to be tried with the municipality.",
+      "numbers": [],
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%93%D7%95%D7%97_%D7%AA%D7%A0%D7%95%D7%A2%D7%94_%D7%9C%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A7%D7%A0%D7%A1",
+      "quote": "…לתעבורה מוסמך לדון גם בעררים על קנסות שניתנו בשל עבירות מהירות, וניתן להגיש ערר לבית הדין. קיבלתי דוח חניה מהעירייה. הגשתי השגה לעירייה אך היא לא התקבלה. האם אוכל להגיש ערר לבית הדין לתעבורה? לא, בית הדין לתעבורה אינו מוסמך לדון בדוחות חניה עירוניים. אם העירייה לא קיבלה את ההשגה אפשר להגיש לעירייה בקשה להישפט. קיבלתי דוח חניה מרשות שדות…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch (page updated 10.8.2026), text grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "kz-hasagah-deadlines",
+      "claim": "Kol Zchut (updated 10.8.2026): hasagah within 30 days of service of the notice; 90 days where the ground is that the owner did not commit the violation; decision within 45 days; arar within 90 days of service, or 30 days after a rejected hasagah.",
+      "numbers": [
+        "30",
+        "90",
+        "45"
+      ],
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%93%D7%95%D7%97_%D7%AA%D7%A0%D7%95%D7%A2%D7%94_%D7%9C%D7%AA%D7%A9%D7%9C%D7%95%D7%9D_%D7%A7%D7%A0%D7%A1",
+      "quote": "…מגישים? יש להגיש את ההשגה בתוך 30 ימים מהיום שבו נמסרה הודעת הקנס (הדוח). אם הסיבה להשגה היא שהפרת התעבורה לא בוצעה על-ידי בעל הרכב - ניתן להגיש את ההשגה בתוך 90 ימים מהיום שבו הדוח נמסר. ההחלטה בהשגה ההחלטה בהשגה תינתן בתוך 45 ימים מהיום שבו התקבלה ההשגה. הגשת ערר לבית הדין לתעבורה על איזה דוחות אפשר להגיש ערר לבית הדין לתעבורה? ניתן להגיש ערר על דוחות שמופיע בהם קנס לתשלום ומצויינת בהם…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch (page updated 10.8.2026), text grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md",
+        "references/sources.md",
+        "templates/natz-objection.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "pkuda-27b-owner-liability",
+      "claim": "Traffic Ordinance s.27B (סעיף 27ב): when a traffic offence or violation is committed with a vehicle, the owner is treated as the driver, unless the owner proves who drove, stopped or parked it, or to whom possession was given, or that it was taken without the owner's knowledge and consent.",
+      "numbers": [
+        "27"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "quote": "…בו. סעיף 27ב – אחריות בעל הרכב (א) נעשתה עבירת תעבורה או הפרת תעבורה ברכב, רואים את בעל הרכב כאילו הוא נהג ברכב אותה שעה או כאילו העמידו או החנה אותו במקום שהעמדתו או חנייתו אסורה על פי חיקוק, לפי הענין, זולת אם הוכיח מי נהג ברכב, העמידו או החנהו כאמור או אם הוכיח למי מסר את החזקה ברכב (להלן – המחזיק), או הוכח שהרכב נלקח ממנו בלי ידיעתו ובלי הסכמתו. (ב) הוכיח בעל הרכב למי מסר…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/sources.md",
+        "templates/driver-declaration.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "pkuda-traffic-offence-includes-bylaws",
+      "claim": "Traffic Ordinance s.1 definition: 'traffic offence' (עבירת תעבורה) is an offence against the Ordinance and the regulations, including by-laws made under it. So municipal parking by-law offences are traffic offences, and the 90-day other-driver window in CPL s.229(a)(1) covers them.",
+      "numbers": [
+        "229",
+        "90"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "quote": "…30(א); ”עבירת תעבורה“ – עבירה על פקודה זו ועל התקנות, לרבות חוקי העזר שהותקנו לפיה; ”עגלה“ – רכב הנגרר על ידי בהמה;…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "takanot-33-sign-501-vehicle-type",
+      "claim": "Traffic Regulations reg. 33 (תקנה 33): where sign 501 is posted, a driver of the type of vehicle indicated on the sign may drive there. Sign 501 therefore names the vehicle types allowed; whether a taxi is allowed in a given bus lane depends on what the 501 sign at that lane shows.",
+      "numbers": [
+        "33",
+        "501"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "quote": "…(3) אם הוצב בשול הדרך תמרור 501, רשאי הנוהג ברכב מן הסוג שצוין בתמרור לנסוע בו, ויראו לגביו את שול הדרך כאילו היה כביש. סעיף 34 – ייעודו…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/sources.md",
+        "templates/natz-objection.md"
+      ]
+    },
+    {
+      "id": "takanot-sixth-schedule-seatbelt",
+      "claim": "Traffic Regulations Sixth Schedule (points): a driver not wearing a seatbelt (reg. 83B(a)) is listed under the 6-point tier, and a passenger not wearing a seatbelt under the 4-point tier. (Verified by locating each row under its tier heading in the raw text.)",
+      "numbers": [
+        "6",
+        "4"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94",
+      "quote": "…כניסה למפגש מסילת ברזל כשאין יכולת להמשיך בנסיעה 17 83ב(א) נהג שאינו חגור בחגורת בטיחות 17א 85(א)(5) הובלת מטען ברכב עד 14.99%…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/fines.md"
+      ]
+    },
+    {
+      "id": "mafna-service",
+      "claim": "Israel Police service page 'פנייה למרכז פניות נהגים ארצי' (gov.il, archived 13.3.2026, page updated 25.02.2026): the service accepts requests about traffic tickets; fill in the ticket number and purpose, attach a photo of the ticket and of the ID card; the e-mail confirmation is proof of sending; and a request to the police does not postpone the time for paying the fine, which may grow by law. There is no service called 'צו הצו'.",
+      "numbers": [],
+      "source_url": "https://www.gov.il/he/service/drivers_inquiries_forms",
+      "quote": "…תנועה. שתפו: להגשת הבקשה > Begin--> > Begin--> יש למלא את מספר הדו\"ח, מטרת הפנייה ואת כל הפרטים הנדרשים בטופס. יש לצרף צילום של הדו\"ח וצילום תעודת זהות. פנייה בשם אדם אחר: עורך דין מייצג – יש למלא את פרטי מקבל הדו\"ח ואת פרטי עורך הדין ולצרף ייפוי כוח חתום. פנייה בשם מקבל הדו\"ח – יש לפרט בטופס את הסיבה לפנייה בשם מקבל הדו\"ח. לאחר הגשת הבקשה יישלח אישור בדואר האלקטרוני כי הפנייה התקבלה בהצלחה. אישור זה הוא הוכחה על שליחת פנייה. אם לא התקבלה הודעת אישור מומלץ לבדוק בכל התיקיות שבתיבת הדואר האלקטרוני, ייתכן שהאישור נכנס לתיקיית דואר הזבל (ספאם). מענה או דוח מתוקן יישלחו לכתובת שתצוין בפנייה. פנייה למשטרת ישראל אינה דוחה את זמן תשלום הקנס שיתכן ויגדל לפי החוק. אם תוגש בקשה להישפט בבית המשפט, גובה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "gov.il returns 403 to scripts; verified through the Wayback Machine capture, text grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/sources.md",
+        "templates/driver-declaration.md",
+        "templates/traffic-objection.md"
+      ],
+      "wayback": "https://web.archive.org/web/20260313165130/https://www.gov.il/he/service/drivers_inquiries_forms"
+    },
+    {
+      "id": "tlv-cancel-page",
+      "claim": "Tel Aviv-Yafo municipality ticket-requests page (live 30.10.2026): a cancellation request for parking and bus-lane tickets within 30 days of receiving the ticket; a request to be tried within 90 days; transferring a ticket requires the full ID number, vehicle number, period of use and the signature of the driver or holder; a request without a full ID number is not handled.",
+      "numbers": [
+        "30",
+        "90"
+      ],
+      "source_url": "https://www.tel-aviv.gov.il/About/Pages/CancelReports.aspx",
+      "quote": "…דברים). לציין במכתב או במסמך מספר תעודת זהות של הנהג או המחזיק ברכב, מספר רישוי הרכב, תקופת השימוש ברכב וחתימת הנהג או המחזיק ברכב. צילום תעודה מזהה (תעודת זהות או רישיון נהיגה או דרכון למי שאינו תושב) על שם האדם שמבקשים להסב את הדוח על שמו. ​ במקרה של ייצוג משפטי…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch, HTTP 200, text grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/sources.md",
+        "templates/driver-declaration.md",
+        "templates/natz-objection.md"
+      ],
+      "related_quotes": [
+        "…שימו לב: פניה ללא מספר מלא של תעודת זהות לא תטופל. אם יש…",
+        "…להגיש השגה על החלטה להטיל קנס או בקשה לביטול דוח חניה או דוח על נסיעה בנתיב תחבורה ציבורית, באפשרותך לפנות אלינו בכתב תוך 30 ימים מיום קבלת הדוח. על פי הקבוע בחוק צריך לפרט את…"
+      ]
+    },
+    {
+      "id": "cpl-18a-c1-categories",
+      "claim": "Consumer Protection Law s.18A(c)(1) (סעיף 18א(ג)(1)): the service provider must coordinate the date AND hour of a technician visit; the rule covers six cases only: (a) warranty work including extended warranty; (b) a service contract depending on equipment at the consumer; (c) installing or removing goods the dealer sold, rented or lent; (d) periodic home gas inspections; (e) delivery of goods the dealer sold; (f) a paid continuing repair contract. A one-off paid call-out is not on the list.",
+      "numbers": [
+        "18"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…(ג)(1) נדרש ביקור של טכנאי או נציג אחר מטעמו של העוסק במענו של צרכן, יתאם נותן השירות את המועד ואת שעת הביקור עם הצרכן; לעניין סעיף קטן זה וסעיפים קטנים (ד) עד (ו), נותן שירות הוא מי שמחויב לתת שירות – (א) לשם קיום חיובים בתקופת אחריות, לרבות בתקופת אחריות ארוכה יותר מהתקופה שנקבעה לפי סעיף קטן (א); (ב) בהתאם לחוזה למתן שירות שבו השירות מותנה בתקינות הטובין הנמצאים אצל הצרכן; (ג) לשם התקנה או הסרה של טובין שהעוסק מכר, השכיר או השאיל; (ד) לשם בדיקות תקופתיות במיתקני גז ביתיים; (ה) לשם הובלה של טובין שהעוסק מכר; (ו) בהתאם לחוזה למתן שירות מתמשך לתיקון טובין תמורת תשלום. (1א) לעניין נותן שירות המנוי בפסקה (1)(א) עד (ד), ביקור במענו של צרכן יהיה בין השעות 8:00 ו־19:00 בימי חול, ובין השעות 8:00 ו־13:00 בימי שישי וערבי חג, בהתאם לתיאום מראש לפי הוראות פסקה (1); הוראות פסקה זו לא…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/consumer.md"
+      ]
+    },
+    {
+      "id": "cpl-18a-c1a-hours",
+      "claim": "Consumer Protection Law s.18A(c)(1a): for cases (a)-(d), visits are between 8:00 and 19:00 on weekdays and 8:00 to 13:00 on Fridays and holiday eves.",
+      "numbers": [
+        "18",
+        "8:00",
+        "19:00",
+        "13:00"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…תשלום. (1א) לעניין נותן שירות המנוי בפסקה (1)(א) עד (ד), ביקור במענו של צרכן יהיה בין השעות 8:00 ו־19:00 בימי חול, ובין השעות 8:00 ו־13:00 בימי שישי וערבי חג, בהתאם לתיאום מראש לפי הוראות פסקה (1); הוראות פסקה זו לא יחולו על מתן…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md"
+      ]
+    },
+    {
+      "id": "cpl-18a-c2-waiting",
+      "claim": "Consumer Protection Law s.18A(c)(2): waiting may not exceed two hours beyond the coordinated hour; a 'wait for our call' alternative is allowed only if the wait at home does not exceed two hours and the consumer was told they may refuse.",
+      "numbers": [
+        "18"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…(2) זמן ההמתנה לנותן שירות לא יעלה על שעתיים מעבר לשעה שתואמה, ואולם נותן השירות רשאי להציע לצרכן להמתין לקריאה טלפונית כתחליף לתיאום האמור, ובלבד שזמן ההמתנה של הצרכן במענו לא יעלה על שעתיים והובהר לצרכן שהוא רשאי לסרב להצעה כאמור אם אין בה כדי להקל עליו. (3) נותן השירות רשאי להודיע לצרכן, לא יאוחר משעה 20:00 בערב שקדם למועד הביקור…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/consumer.md"
+      ]
+    },
+    {
+      "id": "cpl-18a-c3-postponement",
+      "claim": "Consumer Protection Law s.18A(c)(3): the provider may postpone by notice no later than 20:00 the evening before, setting a new date and hour, provided the service is not pushed past its legal deadline.",
+      "numbers": [
+        "18",
+        "20:00"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…אין בה כדי להקל עליו. (3) נותן השירות רשאי להודיע לצרכן, לא יאוחר משעה 20:00 בערב שקדם למועד הביקור שתואם, על דחיית הביקור, ולתאם עמו מועד ושעה חדשים לביקור, ובלבד שאין בדחיה כאמור כדי לדחות את מתן השירות מעבר לפרק הזמן שנקבע לכך לפי דין. (ד) הפר נותן השירות את הוראות סעיף קטן (ג), יהיה הצרכן זכאי, בשל…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "templates/demand-letter.md"
+      ]
+    },
+    {
+      "id": "cpl-18a-d-300-600",
+      "claim": "Consumer Protection Law s.18A(d): compensation without proof of damage: 300 NIS once two hours have passed beyond the waiting time, 600 NIS once three hours have passed beyond it (s.18A(d)(1)); 300 NIS for breaching the phone-call alternative (s.18A(d)(2)). Worked example in the skill: coordinated 10:00, arrival up to 12:00 is lawful, 300 NIS from 14:00, 600 NIS from 15:00.",
+      "numbers": [
+        "18",
+        "300",
+        "600",
+        "10:00",
+        "12:00",
+        "14:00",
+        "15:00"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…לפי דין. (ד) הפר נותן השירות את הוראות סעיף קטן (ג), יהיה הצרכן זכאי, בשל אותה הפרה, לפיצוי בלא הוכחת נזק, כמפורט להלן: (1) תואם מועד לביקור בהתאם להוראות סעיף קטן (ג) וחלפו שעתיים מעבר לזמן ההמתנה כאמור בסעיף קטן (ג)(2) – פיצוי בסכום של 300 שקלים חדשים; חלפו שלוש שעות מעבר לזמן ההמתנה האמור – פיצוי בסכום של 600 שקלים חדשים; (2) פעל נותן השירות בניגוד להוראות סעיף קטן (ג)(2) לעניין הקריאה הטלפונית – פיצוי בסכום של 300 שקלים חדשים. (ה) נותן השירות רשאי להציע לצרכן הזכאי לפיצוי…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/consumer.md",
+        "references/small-claims.md",
+        "templates/demand-letter.md"
+      ]
+    },
+    {
+      "id": "cpl-18a-ef",
+      "claim": "Consumer Protection Law s.18A(e)-(f): compensation in goods or services only if the consumer was told they may choose cash and agreed, with the burden on the provider; no compensation where the delay came from circumstances the provider did not and should not have known of or foreseen and could not prevent.",
+      "numbers": [
+        "18"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…בניגוד להוראות סעיף קטן (ג)(2) לעניין הקריאה הטלפונית – פיצוי בסכום של 300 שקלים חדשים. (ה) נותן השירות רשאי להציע לצרכן הזכאי לפיצוי לפי הוראות סעיף קטן (ד), פיצוי בשווה כסף, בטובין או בשירותים, ובלבד שהודיע לצרכן כי הוא רשאי לבחור בין הפיצוי הכספי לבין הפיצוי המוצע והצרכן נתן את הסכמתו לכך; נטל ההוכחה כי הצרכן הסכים לפיצוי לפי סעיף קטן זה הוא על נותן השירות. (ו) נבע האיחור מנסיבות שנותן השירות לא ידע עליהן בעת קביעת המועד ושעת הביקור ולא היה עליו לדעת עליהן, או שלא ראה ולא היה עליו לראותן מראש, ולא יכול היה למנען, לא יהיה הצרכן זכאי לפיצוי לפי סעיף זה. סעיף 18ב – מתן שירות טלפוני חינם (א) עוסק המנוי בתוספת השניה – (1) יספק שירות טלפוני חינם לשם מתן…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "templates/demand-letter.md"
+      ]
+    },
+    {
+      "id": "kz-technician-insurance",
+      "claim": "Kol Zchut (updated 25.8.2025): the technician rule does not apply to services given at the consumer's address on behalf of insurance companies.",
+      "numbers": [],
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99_%D7%91%D7%92%D7%99%D7%9F_%D7%90%D7%99%D7%97%D7%95%D7%A8_%D7%98%D7%9B%D7%A0%D7%90%D7%99_%D7%90%D7%95_%D7%90%D7%99%D7%A9_%D7%A9%D7%99%D7%A8%D7%95%D7%AA",
+      "quote": "…האיחור. החוק אינו חל על שירותים הניתנים במענו של הצרכן מטעם חברות ביטוח. ראו גם…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch (page updated 25.8.2025), text grepped verbatim",
+      "appears_in": [
+        "references/consumer.md"
+      ]
+    },
+    {
+      "id": "cpl-14c-distance-sale",
+      "claim": "Consumer Protection Law s.14C (סעיף 14ג): (a) in distance marketing the dealer must disclose at least: (1) name, ID/company number and address in Israel and abroad; (2) main characteristics; (3) price and payment terms; (4) delivery date and method; (5) offer validity; (6) warranty; (7) the right to cancel. (b) A written document with these details is due no later than delivery. (c)(1) goods may be cancelled until 14 days from receiving the goods or the document, whichever is later; (c)(2) services within 14 days, and a one-off service at least two non-rest days before it. (d) No cancellation for perishables; lodging, travel, holiday or leisure services within seven non-rest days before the service; information; goods made specially; recordable goods whose packaging was opened. (f) 'price' includes delivery charges.",
+      "numbers": [
+        "14",
+        "7"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…(א) בשיווק מרחוק חייב העוסק לגלות לצרכן פרטים אלה לפחות: (1) השם, מספר הזהות והכתובת של העוסק בארץ ובחוץ לארץ; (2) התכונות העיקריות של הנכס או של השירות; (3) מחיר הנכס או השירות ותנאי התשלום האפשריים; (4) מועד ודרך הספקת הנכס או השירות; (5) התקופה שבה ההצעה תהיה בתוקף; (6) פרטים בדבר אחריות לנכס; (7) פרטים בדבר זכות הצרכן לבטל את החוזה בהתאם להוראות סעיף קטן (ג) או סעיף 14ג1(ג). (ב) בעסקת מכר מרחוק יספק העוסק לצרכן בכתב, בעברית או בשפה שבה נעשתה הפניה לשיווק, לא יאוחר ממועד הספקת הנכס או השירות, מסמך הכולל פרטים אלה: (1) הפרטים האמורים בסעיף קטן (א)(1) ו־(2); (2) מחיר הנכס או השירות ותנאי התשלום החלים על העסקה; (3) האופן שבו יכול הצרכן לממש את זכותו לבטל את העסקה בהתאם להוראות סעיף קטן (ג) או סעיף 14ג1(ג); (4) שם היצרן וארץ ייצור הנכס; (5) מידע בדבר האחריות לנכס או לשירות; (6) תנאים נוספים החלים על העסקה. (ג) בעסקת מכר מרחוק רשאי הצרכן לבטל את העסקה – (1) בנכס – מיום עשיית העסקה ועד ארבעה עשר ימים מיום קבלת הנכס או מיום קבלת המסמך המכיל את הפרטים האמורים בסעיף קטן (ב), לפי המאוחר מביניהם; (2) בשירות – בתוך ארבעה עשר ימים מיום עשיית העסקה או מיום קבלת המסמך המכיל את הפרטים האמורים בסעיף קטן (ב), לפי המאוחר, כמפורט להלן: בעסקה מתמשכת – בין אם הוחל במתן השירות ובין אם לאו, ובעסקה שאינה עסקה מתמשכת – בתנאי שביטול כאמור ייעשה לפחות שני ימים, שאינם ימי מנוחה, קודם למועד שבו אמור השירות להינתן. (ד) הוראות סעיף קטן (ג) וסעיף 14ג1(ג) לא יחולו על עסקת מכר מרחוק של – (1) טובין פסידים; (2) שירותי הארחה, נסיעה, חופש או בילוי, אם מועד ביטול העסקה חל בתוך שבעה ימים שאינם ימי מנוחה, קודם למועד שבו אמור השירות להינתן; (3) מידע כהגדרתו בחוק המחשבים, התשנ״ה–1995; (4) טובין שיוצרו במיוחד בעבור הצרכן בעקבות העסקה; (5) טובין הניתנים להקלטה, לשעתוק או לשכפול, שהצרכן פתח את אריזתם המקורית. (ה) השר, באישור ועדת הכלכלה של הכנסת, רשאי לקבוע עסקאות של מכר מרחוק, שאינן מנויות בסעיף קטן (ד), שהוראות סעיף זה, כולן או חלקן, לא יחולו עליהן. (ו) בסעיף זה – ”מחיר הנכס“ – מחירו הכולל של הנכס או של השירות, לרבות דמי ההובלה וכן כל תוספת או הוצאה אחרות שיחולו על הצרכן; ”עסקת מכר מרחוק“ – התקשרות בעסקה של מכר נכס או של מתן שירות, כאשר ההתקשרות נעשית בעקבות שיווק מרחוק, ללא נוכחות משותפת של הצדדים לעסקה; ”שיווק מרחוק“ – פניה של עוסק לצרכן באמצעות דואר, טלפון, רדיו, טלויזיה, תקשורת אלקטרונית מכל סוג שהוא, פקסימיליה, פרסום קטלוגים או מודעות, או באמצעי כיוצא באלה, במטרה להתקשר בעסקה שלא בנוכחות משותפת של הצדדים, אלא באחד האמצעים האמורים. סעיף 14ג1 – ביטול עסקה ברוכלות ועסקת מכר מרחוק על ידי צרכן שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש (א) בסעיף זה – ”אדם עם מוגבלות“ – כהגדרתו בחוק שוויון זכויות לאנשים עם מוגבלות, התשנ״ח–1998; ”אזרח ותיק“ – מי שמלאו לו 65 שנים; ”עולה חדש“ – מי שטרם חלפו חמש שנים מיום שניתנה לו תעודת עולה או תעודת זכאות כעולה ממשרד…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/consumer.md",
+        "references/website.md",
+        "templates/cancellation-policy.md",
+        "templates/demand-letter.md",
+        "templates/small-claim.md",
+        "templates/terms-of-service.md"
+      ],
+      "note": "The quote covers s.14C(a)-(c); the s.14C(d) exclusions (שבעה ימים = 7 days) and (f) price definition follow in the same section text."
+    },
+    {
+      "id": "cpl-14c-f-price-includes-delivery",
+      "claim": "Consumer Protection Law s.14C(f): in a distance sale, 'price of the asset' means the total price including delivery charges and any other addition or expense charged to the consumer.",
+      "numbers": [
+        "14"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…עליהן. (ו) בסעיף זה – ”מחיר הנכס“ – מחירו הכולל של הנכס או של השירות, לרבות דמי ההובלה וכן כל תוספת או הוצאה אחרות שיחולו על הצרכן; ”עסקת מכר מרחוק“ – התקשרות בעסקה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/website.md"
+      ]
+    },
+    {
+      "id": "cpl-14c-d-seven-days",
+      "claim": "Consumer Protection Law s.14C(d)(2): no distance-sale cancellation right for lodging, travel, holiday or leisure services if the cancellation falls within seven non-rest days (7 days) before the service.",
+      "numbers": [
+        "14",
+        "7"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…מכר מרחוק של – (1) טובין פסידים; (2) שירותי הארחה, נסיעה, חופש או בילוי, אם מועד ביטול העסקה חל בתוך שבעה ימים שאינם ימי מנוחה, קודם למועד שבו אמור השירות להינתן; (3) מידע כהגדרתו בחוק המחשבים, התשנ״ה–1995;…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "templates/cancellation-policy.md"
+      ]
+    },
+    {
+      "id": "cpl-14c1-four-months",
+      "claim": "Consumer Protection Law s.14C1 (סעיף 14ג1): 'senior citizen' = aged 65; 'new immigrant' = less than five (5) years since the oleh certificate; a person with a disability, senior or new immigrant may cancel a door-to-door deal within four (4) months (s.14C1(b)), and a distance deal within four months only if the deal included a conversation between dealer and consumer, including electronic (s.14C1(c)); the dealer may ask for one certificate only (s.14C1(d)).",
+      "numbers": [
+        "14",
+        "65",
+        "4",
+        "5"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…”אזרח ותיק“ – מי שמלאו לו 65 שנים; ”עולה חדש“ – מי שטרם חלפו חמש שנים מיום שניתנה לו תעודת עולה או תעודת זכאות כעולה ממשרד העלייה והקליטה; ”עסקת מכר מרחוק“ – כהגדרתה בסעיף 14ג(ו); ”תעודת זכאות כעולה“ – תעודה שמנפיק משרד העלייה והקליטה למי שנמצא זכאי לסיוע כעולה על פי נוהלי המשרד. (ב) בעסקה ברוכלות שנערכה עם צרכן שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש, רשאי הצרכן לבטל את העסקה בתוך ארבעה חודשים מיום עשיית ההסכם, מיום מסירת הנכס או מיום קבלת הפרטים שנקבעו בתקנות לפי סעיף 14(ד), לפי העניין, לפי המאוחר. (ג) בעסקת מכר מרחוק שנערכה עם צרכן שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש, רשאי הצרכן לבטל את העסקה בתוך ארבעה חודשים מיום עשיית העסקה, מיום קבלת הנכס או מיום קבלת המסמך המכיל את הפרטים האמורים בסעיף 14ג(ב), לפי העניין, לפי המאוחר, ובלבד שההתקשרות בעסקה כללה שיחה בין העוסק לצרכן, ובכלל זה שיחה באמצעות תקשורת אלקטרונית. (ד) ביקש צרכן שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש, לבטל עסקה ברוכלות לפי סעיף קטן (ב) או עסקת מכר מרחוק לפי סעיף קטן (ג), רשאי העוסק לדרוש ממנו להציג לפניו תעודה המוכיחה שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש, ובלבד שלא ידרוש ממנו הוכחה נוספת לשם מימוש זכות הביטול כאמור; הצרכן יציג לפני העוסק אחד מהמסמכים שלהלן, לפי העניין, או ישלח לו עותק שלו, לרבות באמצעות תקשורת אלקטרונית או פקסימיליה: (1) תעודה שניתנה לצרכן מהמדינה המעידה על כך שהוא אזרח ותיק; (2) תעודת עולה או תעודת זכאות…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/consumer.md",
+        "references/sources.md",
+        "references/website.md",
+        "templates/cancellation-policy.md",
+        "templates/demand-letter.md"
+      ]
+    },
+    {
+      "id": "cpl-14e-fees-refund",
+      "claim": "Consumer Protection Law s.14E (סעיף 14ה): (a)(1) on cancellation for a defect, non-conformity, late delivery or other breach, refund within 14 days, cancel the charge, hand over a copy of the charge-cancellation notice, and no cancellation fee; (b)(1) on any other distance cancellation, the fee may not exceed 5% of the price or 100 NIS, whichever is lower; the definition of cancellation fee includes shipping and packaging.",
+      "numbers": [
+        "14",
+        "5",
+        "100"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…– (1) יחזיר העוסק לצרכן בתוך 14 ימים מיום קבלת ההודעה על הביטול, את אותו חלק ממחיר העסקה ששולם על ידי הצרכן, יבטל את חיובו של הצרכן בשל העסקה וימסור לו עותק מהודעת ביטול החיוב כאמור ולא יגבה מהצרכן דמי ביטול כלשהם; (2) קיבל הצרכן את הנכס נושא העסקה או החוזה, יעמידו לרשות העוסק במקום שבו נמסר לו הנכס ויודיע על כך לעוסק, והוא הדין לגבי נכס כלשהו שקיבל הצרכן בעקבות עשיית העסקה או החוזה. (ב) ביטל צרכן חוזה לפי סעיפים 14א(ג), 14ג(ג) או 14ג1(ג) שלא מהטעמים המנויים בסעיף קטן (א) – (1) יחזיר העוסק לצרכן, בתוך 14 ימים מיום קבלת ההודעה על הביטול, את אותו חלק ממחיר העסקה ששולם על ידי הצרכן, יבטל את חיובו של הצרכן בשל העסקה וימסור לו עותק מהודעת ביטול החיוב כאמור ולא יגבה מהצרכן סכום כלשהו, זולת דמי ביטול בשיעור שלא יעלה על 5% ממחיר הנכס נושא החוזה או העסקה, או 100 שקלים חדשים, לפי הנמוך מביניהם. (2) קיבל הצרכן את הנכס נושא העסקה או החוזה, יחזירו לעוסק במקום עסקו, והוא הדין לגבי נכס כלשהו שקיבל הצרכן בעקבות עשיית העסקה או החוזה. (ב1) בלי לגרוע מהוראות סעיפים קטנים (א) ו־(ב), בוטלה עסקה מתמשכת כאמור בסעיף 14ג(ג) או 14ג1(ג), שהוחל במתן השירות לפיה, ישלם הצרכן את התמורה היחסית בעד השירות שניתן לו. (ב2) התקין העוסק טובין בבית הצרכן לצורך מתן שירות לפי העסקה, יהיה רשאי לגבות מהצרכן תשלום בשל הוצאות ההתקנה, בסכום שלא יעלה על 100 שקלים חדשים; השר, באישור ועדת הכלכלה של הכנסת, רשאי לקבוע סוגי עסקאות שלגביהן יהיה עוסק רשאי לגבות סכומים אחרים בשל הוצאות ההתקנה ואת הסכומים שייגבו. (ג) אין בהוראות סעיפים קטנים (א) ו־(ב) כדי לגרוע מזכותו של עוסק לתבוע את נזקיו, בשל כך שערך הנכס פחת כתוצאה מהרעה משמעותית במצבו. (ד) בסעיף זה, ”דמי ביטול“ – לרבות הוצאות או…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/consumer.md",
+        "references/website.md",
+        "templates/cancellation-policy.md",
+        "templates/demand-letter.md"
+      ]
+    },
+    {
+      "id": "cpl-14-door-to-door",
+      "claim": "Consumer Protection Law s.1 and s.14 (סעיף 14): door-to-door (רוכלות) includes a dealer's unsolicited approach after which the dealer comes to the consumer; goods may be cancelled until 14 days from delivery or receipt of the required details, whichever is later (s.14(a)(1)); on cancellation the dealer may charge only installation costs up to 100 NIS (s.14(b)(2)).",
+      "numbers": [
+        "14",
+        "100"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…– (1) במכר – מיום עשיית ההסכם עד ארבעה־עשר ימים מיום מסירת הנכס או מיום קבלת הפרטים שנקבעו בתקנות לפי סעיף קטן (ד), לפי המאוחר מביניהם; (2) בשירות, תוך ארבעה־עשר ימים מיום עשיית ההסכם או מיום קבלת הפרטים שנקבעו בתקנות לפי סעיף קטן (ד), לפי המאוחר, כמפורט להלן:…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/consumer.md",
+        "references/sources.md",
+        "references/website.md",
+        "templates/demand-letter.md"
+      ],
+      "related_quotes": [
+        "…(2) התקין העוסק טובין בבית הצרכן לצורך מתן שירות לפי ההסכם, יהיה רשאי לגבות מהצרכן תשלום בשל הוצאות ההתקנה, בסכום שלא יעלה על 100 שקלים חדשים; השר, באישור ועדת הכלכלה של הכנסת,…",
+        "…הצרכן), או פניה יזומה של עוסק לצרכן בכל דרך שהיא, שבעקבותיה הגיע העוסק, או מי מטעמו, למקום הצרכן כדי לקשור עסקה. סעיף 9 – הודעת פרטים בעסקת אשראי (א) השר רשאי לקבוע…"
+      ]
+    },
+    {
+      "id": "cpl-13d-continuing-deal",
+      "claim": "Consumer Protection Law s.13D(c) (סעיף 13ד(ג)): a continuing deal (subscription) ends within 3 business days of the cancellation notice, or 6 business days if sent by registered mail.",
+      "numbers": [
+        "13",
+        "3",
+        "6"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…(ג) חוזה בעסקה מתמשכת יסתיים בתוך שלושה ימי עסקים מיום שנמסרה הודעת ביטול לפי הוראות סעיף 14ט, ואם נמסרה הודעת הביטול באמצעות דואר רשום – בתוך שישה ימי עסקים מיום מסירתה למשלוח, והכל אם לא נקב הצרכן במועד מאוחר יותר בהודעת הביטול (בפסקה זו – מועד הביטול); במועד הביטול…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md"
+      ]
+    },
+    {
+      "id": "cpl-14i-notice-channels",
+      "claim": "Consumer Protection Law s.14I(a) (סעיף 14ט(א)): a dealer must accept a cancellation notice orally by phone or at the place of business, by registered mail, e-mail, fax (if it has one), or online where deals are made online.",
+      "numbers": [
+        "14"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…יאפשר לו העוסק לבטל את העסקה בהודעת ביטול שימסור לו הצרכן בכל אחת מהדרכים המפורטות להלן ובהתאם לפרטי ההתקשרות שמסר העוסק לצרכן לפי סעיף קטן (ד) הנוגע לאותה דרך ביטול (בסעיף זה – הודעת ביטול): (1) בעל פה – בטלפון או בהודעה בעל פה במקום העסק, למעט אם נקבע לפי החוק כי ביטול העסקה ייעשה בדרך של הודעה בכתב; (2) בדואר רשום; (3) בדואר אלקטרוני; (4) בפקסימיליה, אם יש לעוסק; (5) באינטרנט – בעסקה שניתן להתקשר לגביה עם צרכן באמצעי זה; (6) בכל אמצעי אחר שקבע השר. (ב) לעניין עסקה שניתן להתקשר לגביה עם צרכן באינטרנט, ייצור עוסק בדף הראשי של אתר…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "templates/cancellation-policy.md"
+      ]
+    },
+    {
+      "id": "cpl-31a-exemplary-damages",
+      "claim": "Consumer Protection Law s.31A (סעיף 31א): a court may award exemplary damages without proof of damage up to 10,000 NIS per breach, only for the breaches listed in the section; a suit requires a prior written request, e-mail included (s.31A(b)).",
+      "numbers": [
+        "31",
+        "10,000"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…או ארגון אחר ששר המשפטים אישר לענין זה. סעיף 31א – פיצויים לדוגמה (א) נקשרה עסקה בין עוסק לצרכן והעוסק הפר, בקשר לאותה עסקה, הוראה מההוראות המפורטות להלן, רשאי בית המשפט לפסוק, בשל אותה הפרה, פיצויים שאינם תלויים בנזק (בסעיף זה – פיצויים לדוגמה), בסכום שלא יעלה על 10,000 שקלים חדשים: (1) ביקש צרכן כי עוסק ישיב לו את…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "templates/demand-letter.md"
+      ],
+      "related_quotes": [
+        "…(ב) לא תוגש נגד עוסק תביעה לפיצויים לדוגמה לפי סעיף קטן (א), אלא לאחר שהצרכן שלח או מסר בקשה לפי אותו סעיף קטן, בכתב, לרבות באמצעות תקשורת אלקטרונית; לעניין פסקה (2ב), די אם הצרכן מסר הודעת ביטול לפי סעיף…"
+      ]
+    },
+    {
+      "id": "cancel-regs-in-store",
+      "claim": "Consumer Protection (Cancellation of Transaction) Regulations 2010: 'goods' means goods priced above 50 NIS (reg. 1); listed goods such as furniture and electrical devices within 14 days of receipt, and connecting to electricity, gas or water counts as use (reg. 2(1)); clothing and footwear until the end of two non-rest days if the price tag was not removed (reg. 2(2)); refund no later than seven (7) business days by the same payment method (reg. 4(a)); fee 5% of the price or 100 NIS, whichever is lower (reg. 5(a)).",
+      "numbers": [
+        "50",
+        "14",
+        "7",
+        "5",
+        "100",
+        "2010"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%91%D7%99%D7%98%D7%95%D7%9C_%D7%A2%D7%A1%D7%A7%D7%94%29",
+      "quote": "…כהגדרתם בסעיף 14ה(ד) לחוק; ”טובין“ – טובין שהמחיר ששולם בעדם עולה על 50 שקלים חדשים. סעיף 2 – ביטול עסקה צרכן רשאי לבטל הסכם בהתאם לפסקאות (1) עד (7) ובלבד שביטול הסכם לרכישת טובין יהיה בתנאי שהצרכן יחזירם לעוסק והטובין לא נפגמו ולא נעשה בהם שימוש בידי הצרכן הרוכש; החזרת הטובין באריזה המקורית תהווה ראיה מספקת לאי־עשיית שימוש בהם – (1) לרכישת טובין או סוגי טובין כאמור – בתוך 14 ימים מיום שקיבל את הטובין; לגבי , , פתיחת האריזה המקורית כשלעצמה לא תיחשב שימוש או פגימה בטובין, אלא אם כן יוכח אחרת; חיבור הטובין לחשמל, גז או מים ייחשב לעניין זה שימוש בטובין; (2) לרכישת טובין או סוגי טובין כאמור – מיום הרכישה ועד תום שני ימים שלאחריו שאינם ימי מנוחה ובלבד שתווית המחיר על הטובין, אם ישנה, לא הוסרה; (3) לרכישת שירות כאמור – בתוך 14 ימים מיום עשיית ההסכם ובלבד שהביטול ייעשה 14 ימים שאינם ימי מנוחה לפחות, קודם למועד תחילת השירות; (4) לרכישת שירות כאמור – בתוך 14 ימים מיום עשיית העסקה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md"
+      ],
+      "related_quotes": [
+        "…– טובין שהמחיר ששולם בעדם עולה על 50 שקלים חדשים. סעיף 2…",
+        "…תהיה במועד ביטול העסקה, ככל שניתן או במועד הקרוב ביותר לכך ולא מאוחר משבעה ימי עסקים ותיעשה באותו אופן שנעשה בו התשלום; היה…",
+        "…2, רשאי העוסק לגבות מהצרכן דמי ביטול בשיעור של 5% ממחיר הטובין או מערך השירות או 100 שקלים חדשים לפי הנמוך מביניהם. (ב) נעשתה…"
+      ]
+    },
+    {
+      "id": "tikshoret-30a-spam",
+      "claim": "Communications Law (Bezeq and Broadcasts) 1982, s.30A (סעיף 30א): (b) no advertising by fax, autodialer, e-mail or SMS without the recipient's express prior consent in writing, including electronically or by recorded call; (c) exception for a recipient who gave details during a purchase or negotiation, was told they would be used for advertising, was given a chance to refuse and did not, for similar products; (d) refusal may be given at any time free of charge; (e) the word 'פרסומת' at the start (subject line in e-mail), sender details and a simple way to refuse; (j)(1) the court may award exemplary damages not dependent on damage of up to 1,000 NIS per message; (j)(5) presumption of knowledge, with no defence after a refusal notice.",
+      "numbers": [
+        "30",
+        "1,000",
+        "1982"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA_%28%D7%91%D7%96%D7%A7_%D7%95%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%99%D7%9D%29",
+      "quote": "…(ב) לא ישגר מפרסם דבר פרסומת באמצעות פקסימיליה, מערכת חיוג אוטומטי, הודעה אלקטרונית או הודעת מסר קצר, בלא קבלת הסכמה מפורשת מראש של הנמען, בכתב, לרבות בהודעה אלקטרונית או בשיחה מוקלטת; חיוג לנמען באמצעות מערכת חיוג אוטומטי בלא הסכמת הנמען כאמור ייחשב הפרה של הוראות סעיף זה, גם אם החיוג הופסק בטרם נענתה השיחה ובחיוג של הנמען…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "references/sources.md",
+        "references/website.md",
+        "templates/demand-letter.md"
+      ],
+      "related_quotes": [
+        "…בניגוד להוראות סעיף זה, רשאי בית המשפט לפסוק בשל הפרה זו פיצויים שאינם תלויים בנזק (בסעיף זה – פיצויים לדוגמה), בסכום שלא יעלה על 1,000 שקלים חדשים בשל כל דבר פרסומת שקיבל הנמען בניגוד להוראות סעיף זה. (2) בבואו לקבוע את גובה הפיצויים…",
+        "…אלה: (1) הנמען מסר את פרטיו למפרסם במהלך רכישה של מוצר או שירות, או במהלך משא ומתן לרכישה כאמור, והמפרסם הודיע לו כי הפרטים שמסר ישמשו לצורך משלוח דבר פרסומת מטעמו, באחת הדרכים האמורות בסעיף קטן (ב); (2) המפרסם נתן לנמען הזדמנות להודיע לו כי הוא מסרב לקבל דברי פרסומת כאמור, דרך כלל או מסוג מסוים, והנמען לא עשה כן; (3) דבר הפרסומת מתייחס למוצר או לשירות מסוג…"
+      ]
+    },
+    {
+      "id": "warranty-regs",
+      "claim": "Consumer Protection (Warranty and After-Sale Service) Regulations 2006: apply to new electrical, electronic and gas goods priced above 150 NIS, warranty period of one year from delivery (reg. 1); repair within one week of the call or ten days from delivery to a service station, Sabbaths and holidays not counted (reg. 10); if the repair does not restore the goods, new equivalent goods or a refund at the manufacturer's choice (reg. 6(c)).",
+      "numbers": [
+        "150",
+        "1",
+        "10",
+        "6",
+        "2006"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "quote": "…בתקנות אלה – ”טובין“ – מוצרי חשמל, אלקטרוניקה וגז חדשים, לרבות מנגנונים מכניים וחשמליים ברהיטים, ובלבד שמחיר הטובין לצרכן גבוה מ־150 שקלים חדשים; ”תחנת שירות“ – מקום האיסוף של טובין מקולקלים, לשם העברתם למעבדה לצורך תיקונם; ”תעודת אחריות“ – מסמך המפרט את חיובי היצרן ואת חיובי העוסק שמכר טובין לצרכן, כלפי הצרכן, בדבר תקינות הטובין ומתן השירות…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "templates/demand-letter.md"
+      ],
+      "related_quotes": [
+        "…התיקונים (א) יצרן ימלא את חובתו לתקן טובין על פי תקנות אלה לא יאוחר מתום שבוע ימים מהיום שבו נקרא לעשות כן או מתום עשרה ימים מהיום שבו נמסרו הטובין לתחנת השירות, לפי הענין; נמסרו הטובין לנקודת המכירה בהתאם כאמור בתקנה 9(ב), ימלא היצרן את חובתו לתקן את…",
+        "…וחדשים. (ג) לא מילא היצרן אחר הוראות תקנות משנה (א) ו־(ב), יספק לצרכן טובין חדשים, זהים או מסוג ואיכות דומים ושווי ערך, או ישיב לו את התמורה ששילם בעדם, לפי בחירת היצרן. סעיף 7…"
+      ]
+    },
+    {
+      "id": "mecher-13-15",
+      "claim": "Sale Law 1968, s.13-15 (סעיף 13, 14, 15 לחוק המכר): the buyer must inspect the goods immediately on receipt (s.13); notify non-conformity immediately after inspection or discovery, whichever is earlier (s.14(a)), or lose the right to rely on it (s.14(b)); a hidden defect may be relied on if notified immediately on discovery (s.15).",
+      "numbers": [
+        "13",
+        "14",
+        "15",
+        "1968"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8",
+      "quote": "…(א) על הקונה לבדוק את הממכר מיד לאחר קבלתו. (ב) הוסכם על הובלת הממכר, על הקונה לבדוק אותו מיד לאחר שהגיע למקום הייעוד, ואם הועבר הממכר למקום אחר בלי שהקונה בדק אותו והמוכר ידע או היה עליו לדעת על אפשרות של העברה כזאת – מיד לאחר שהגיע הממכר למקום האחר. (ג) על המוכר לתת לקונה, לפי דרישתו, הזדמנות נאותה לבדוק את הממכר לפני המועדים האמורים בסעיפים קטנים (א) ו־(ב). סעיף 14 – הודעה על אי־התאמה (א) על הקונה להודיע למוכר על אי־התאמה מיד לאחר מועד הבדיקה לפי סעיף 13(א) או (ב) או מיד לאחר שגילה אותה, הכל לפי המוקדם יותר. (ב) לא הודיע הקונה על…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "references/sources.md",
+        "templates/demand-letter.md",
+        "templates/small-claim.md"
+      ]
+    },
+    {
+      "id": "kz-consumer-council-written-first",
+      "claim": "Kol Zchut (updated 1.1.2026): the Israel Consumer Council handles complaints only after the consumer approached the business in writing.",
+      "numbers": [],
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%A0%D7%99%D7%99%D7%94_%D7%9C%D7%9E%D7%95%D7%A2%D7%A6%D7%94_%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA_%D7%9C%D7%A6%D7%A8%D7%9B%D7%A0%D7%95%D7%AA",
+      "quote": "…שימו לב המועצה הישראלית לצרכנות תטפל בתלונות שיוגשו אליה רק לאחר שנעשתה פנייה בכתב מצד הצרכן לבית העסק. דרכי הפנייה למועצה באמצעות טופס תלונה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch (page updated 1.1.2026), text grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "references/sources.md"
+      ]
+    },
+    {
+      "id": "fta-complaint-enforcement",
+      "claim": "Consumer Protection and Fair Trade Authority public-inquiries service (gov.il, archived 14.1.2026): information in a complaint is used for the Authority's functions including investigation, supervision and enforcement; it is not a refund channel.",
+      "numbers": [],
+      "source_url": "https://www.gov.il/he/service/filing_a_complaint_to_fair_trade_authority",
+      "quote": "…עלות המשך הטיפול בבקשה הרשות תיצור קשר עם מגישי הפנייה בדואר האלקטרוני כדי לתת מענה לפנייתם. המידע שיימסר ישמש את הרשות להגנת הצרכן לצורך מתן מענה לפנייה ולצורך ביצוע תפקידי הרשות ומילוי חובותיה, ובכלל זה פעילויות חקירה, פיקוח ואכיפה של הרשות ולצורך העברת מידע לצדדים שלישיים…",
+      "verified_at": "2026-10-30",
+      "verified_via": "gov.il returns 403 to scripts; verified through the Wayback Machine capture, text grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "references/sources.md"
+      ],
+      "wayback": "https://web.archive.org/web/20260114185233/https://www.gov.il/he/service/filing_a_complaint_to_fair_trade_authority"
+    },
+    {
+      "id": "consumer-council-form",
+      "claim": "Israel Consumer Council complaint lobby page (live 30.10.2026).",
+      "numbers": [],
+      "source_url": "https://www.consumers.org.il/category/complaint-form",
+      "quote": " המועצה הישראלית לצרכנות, לובי טופס תלונה המועצה הישראלית לצרכנות, לובי טופס תלונה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch, HTTP 200, text grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "references/sources.md"
+      ]
+    },
+    {
+      "id": "courts-60-ceiling-39900",
+      "claim": "Courts Law s.60 (סעיף 60): the small claims court hears a civil claim by an individual up to 30,000 NIS linked to the August 2008 index; in 2026 the figure is 39,900 NIS. The gov.il filing service (archived 20.6.2026) states 39,900 NIS as of 1.1.2026.",
+      "numbers": [
+        "60",
+        "39,900",
+        "2026",
+        "1.1.2026"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98",
+      "quote": "…60 – הסמכות (א) בית משפט לתביעות קטנות ידון בתביעה אזרחית שהגיש יחיד – (1) לתשלום סכום שאינו עולה על 30,000 שקלים חדשים (מתואם לאוגוסט 2008;בשנת 2026, 39,900 ש״ח); (2) למתן צו להחלפת מצרך או לתיקונו…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/small-claims.md",
+        "templates/small-claim.md"
+      ],
+      "related_quotes": [
+        "…קטנה סכום תביעה קטנה יכול להיות עד 39,900 ₪ (נכון ל-1.1.2026). אפשר…"
+      ],
+      "related_source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "wayback": "https://web.archive.org/web/20260620232228/https://www.gov.il/he/service/filing_a_small_claim"
+    },
+    {
+      "id": "sc-reg6-fee",
+      "claim": "Small Claims Procedure Regulations reg. 6(a) (תקנה 6(א)): a fee of 1% of the claim on every claim or third-party notice, not less than 50 NIS, rounded up to a multiple of 5 NIS. Worked examples in the skill: up to 5,000 NIS pays 50 NIS; 8,123 NIS -> 1% is 81.23 -> 85 NIS; 39,900 NIS -> 1% is 399 -> 400 NIS.",
+      "numbers": [
+        "6",
+        "1",
+        "50",
+        "5",
+        "5,000",
+        "8,123",
+        "81.23",
+        "85",
+        "39,900",
+        "399",
+        "400"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "quote": "…שייפסק נגדו בתביעה, רשאי להגיש הודעה לצד שלישי, ותקנות 4(ב) ו־5(א) עד (ד) לתקנות יחולו בשינויים המחויבים. סעיף 6 – אגרות (א)(1) לא ייזקק בית המשפט לכל תביעה או הודעה לצד שלישי אלא אם שולמה בעדן, עם הגשתן, אגרה של 1% משווי התביעה; (2) על אף האמור בפסקה (1) לא תפחת האגרה בשום מקרה מ־50 שקלים חדשים; (3) סכום האגרה לפי פסקה (1) יעוגל כלפי מעלה לסכום שהוא מכפלה של 5 שקלים; (4) על אף האמור…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/small-claims.md",
+        "templates/small-claim.md"
+      ]
+    },
+    {
+      "id": "kz-sc-who-and-how",
+      "claim": "Kol Zchut (updated 1.7.2026): only private individuals (including osek murshe/patur) may file; digital filing from a computer, not a phone; only PDF attachments up to 30 MB in total; paper filing in 3 full copies; information center *3852; costs usually about 300-400 NIS; the court usually but not necessarily orders repayment of the fee; fee-exemption request available; spam and defamation are typical small claims; summons sent by registered mail with delivery confirmation; without delivery confirmation the judge cannot hear the case and the claim may be struck.",
+      "numbers": [
+        "30",
+        "3",
+        "3852",
+        "300",
+        "400"
+      ],
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "quote": "…דין. רק אנשים פרטיים (כולל עוסק מורשה או פטור) יכולים להגיש תביעה לבית המשפט לתביעות קטנות. חברה בע\"מ, שותפות או עמותה לא יוכלו להגיש תביעה לבית משפט זה. ההליך בבית המשפט לתביעות קטנות…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch (page updated 1.7.2026), text grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/small-claims.md",
+        "templates/small-claim.md"
+      ],
+      "related_quotes": [
+        "…וכד'), ניתן לצרף לכתב התביעה רק קובצי PDF במשקל כולל של עד 30 מגה. אם…",
+        "…הארצי. את כתב התביעה בצירוף הנספחים צריך להגיש ב-3 עותקים מלאים. אם יש…",
+        "…הגשה פיזית אל מזכירות בית המשפט לשאלות ובירורים אפשר להתקשר ל מרכז המידע *3852 *3852…",
+        "…משפט. גובה הוצאות המשפט עומד בדרך כלל על כ-400-300 ₪, אבל לפעמים בית המשפט עשוי להורות על תשלום סכום גבוה יותר. לרוב, אם התביעה…",
+        "…השופטת . ללא אישור מסירה לנתבע, השופט לא יוכל לדון בתיק והתביעה עלולה להימחק. לזמן את…",
+        "…הרשות השופטת . לאחר ההגשה, בית המשפט ישלח לתובע ולנתבע הזמנה לדיון בדואר רשום עם אישור מסירה. הנתבע…"
+      ]
+    },
+    {
+      "id": "gov-sc-filing-service",
+      "claim": "Judicial Authority service 'הגשת תביעה קטנה' (gov.il, archived 20.6.2026): filing via national digital identification from a computer, not a mobile phone; PDF attachments up to 30 MB; the plaintiff is responsible for verifying service on the defendant.",
+      "numbers": [
+        "30"
+      ],
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "quote": "…. צירוף ראיות מתאימות. תשלום האגרה. כדי להגיש תביעה - יש להתחבר מהמחשב למערכת ההזדהות הלאומית בתהליך קצר ופשוט. לא ניתן להגיש את התביעה מטלפון נייד. לאחר הגשת כתב התביעה, באחריות התובע לוודא את מסירתו לנתבע, לזמן את העדים (אם יש) ולהתעדכן במצב התיק. מידע נוסף בנושא קיים בפרק 'פעולות באחריות התובע'. סיוע בניסוח והגשת התביעה לליווי וסיוע בתהליך הרישום…",
+      "verified_at": "2026-10-30",
+      "verified_via": "gov.il returns 403 to scripts; verified through the Wayback Machine capture, text grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/small-claims.md",
+        "templates/small-claim.md"
+      ],
+      "wayback": "https://web.archive.org/web/20260620232228/https://www.gov.il/he/service/filing_a_small_claim"
+    },
+    {
+      "id": "courts-63-62-79a-60b",
+      "claim": "Courts Law: s.63(a) representation by a lawyer only with the court's leave and for special reasons; s.62(a) the court may accept evidence inadmissible elsewhere; s.79A(a) with the parties' consent the court may rule by way of compromise; s.60(b) the court may decline and transfer a claim where the plaintiff already filed more than five claims that year in the same court.",
+      "numbers": [
+        "63",
+        "62",
+        "79",
+        "60"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98",
+      "quote": "…(א) ייצוג בעל דין בבית משפט לתביעות קטנות על ידי עורך דין יהיה רק ברשות בית המשפט ומטעמים מיוחדים שיירשמו; בעל דין רשאי, ברשות בית המשפט, להיות מיוצג על ידי ארגון שקבע לענין זה שר המשפטים, ובמקרה זה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/small-claims.md",
+        "references/sources.md"
+      ],
+      "related_quotes": [
+        "…דין (א) בית משפט לתביעות קטנות יהיה רשאי לקבל ראיה אף אם לא היתה קבילה בבית משפט אחר; אין…",
+        "…– פשרה (א) בית משפט הדן בענין אזרחי רשאי, בהסכמת בעלי הדין, לפסוק בענין שלפניו, כולו או מקצתו, בדרך של פשרה. (ב) אין…",
+        "…להן, או אם ראה שהתביעה הוגשה בידי תובע שכבר הגיש באותה שנה באותו בית משפט יותר מחמש תביעות. (ג) שר…"
+      ]
+    },
+    {
+      "id": "sc-reg2-venue",
+      "claim": "Small Claims Procedure Regulations reg. 2 (תקנה 2): (a) file where the defendant lives or has a place of business, or where the act or omission occurred, notwithstanding any agreement; (b) a claim over internet publication or commerce only where the defendant or the plaintiff lives or has a place of business.",
+      "numbers": [
+        "2"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "quote": "…תא דואר בלבד; ”תביעה“ – תביעה אזרחית כמשמעותה , ולרבות תביעה שכנגד, ועל דרך זו יפורשו ”תובע“ ו”נתבע“; ”תקנות סדר הדין האזרחי“ – תקנות סדר הדין האזרחי, התשע״ט–2018. סעיף 2 – מקום השיפוט (א) תביעה תוגש לבית המשפט שאזור שיפוטו הוא אחד המקומות המנויים להלן, והוא על אף האמור בכל הסכם שבין בעלי הדין; ואלה הם: (1) מקום מגוריו או מקום עסקו של הנתבע; (2) (נמחקה); (3) (נמחקה); (4) (נמחקה); (5) מקום המעשה או המחדל שבשלו תובעים; (6) בתביעה שכנגד – מקום הגשת התביעה המקורית. (ב) על אף האמור בתקנת משנה (א), תובענה בשל פרסום או סחר ברשת האינטרנט תוגש לבית המשפט שבאזור שיפוטו מצוי מקום מגוריו או מקום עסקו של הנתבע או מקום מגוריו או מקום עסקו של התובע, בלבד. (ג) בית המשפט המוסמך לדון בתביעה הכוללת כמה נתבעים הוא בית משפט המוסמך לדון נגד אחד מהם לפי תקנות משנה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/small-claims.md",
+        "templates/natz-objection.md"
+      ]
+    },
+    {
+      "id": "sc-reg3-contents",
+      "claim": "Small Claims Procedure Regulations reg. 3 (proceedings opened from 11.4.2025): the claim states, among others, the witnesses, the number of small claims filed in the past year, and a truth declaration; the body may not exceed five pages; Form 1 (טופס 1) was repealed for proceedings opened from 11.4.2025.",
+      "numbers": [
+        "3",
+        "11.4.2025",
+        "1"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "quote": "…ופרטי התקשרות עימו, לרבות דואר אלקטרוני וטלפון נייד אם ניתן לבררם; (5) הסעד המבוקש. (ג) (החל מיום 11.4.2025, חלה על הליכים שנפתחו החל מיום 11.4.2025): בגוף כתב התביעה יפרט התובע את כל העניינים האלה: (1) מקום המעשה או המחדל שבשלו תובעים; (2) הסעד המבוקש; (3) נימוקי התביעה; (4) רשימת המסמכים שעליהם הוא מבקש להסתמך בכתב התביעה; (5) רשימת העדים שבכוונתו להעיד לתמיכה בתביעה; (6) אם הוא מעדיף לקיים את הדיון באמצעי טכנולוגי כאמור בתקנה 13(ב), וכן אם הוא מעדיף הכרעה על יסוד הכתב כאמור בתקנה 13(ג); (7) מספר התביעות הקטנות שהגיש במהלך השנה האחרונה. (ד) (החל מיום 11.4.2025, חלה על הליכים שנפתחו החל מיום 11.4.2025): על התובע לצרף לכתב התביעה את המסמכים המפורטים להלן; ואולם בית המשפט רשאי להתיר לתובע להגיש מסמך שלא צורף לכתב התביעה אם מצא שהמסמך דרוש לצורך מתן פסק דין או מכל סיבה חשובה אחרת: (1) המסמכים שעליהם הוא מבקש להסתמך במסגרת כתב התביעה אם הם מצויים ברשותו; (2) הצהרה שלפיה כל האמור בכתב התביעה הוא אמת או למיטב ידיעתו של התובע, לרבות ציון המקור לידיעתו. (ה) (החל מיום 11.4.2025, חלה על הליכים שנפתחו החל מיום 11.4.2025): גוף כתב התביעה לא יעלה על חמישה עמודים. סעיף 4 – הזמנה לדין (א) הוגשה תביעה כאמור בתקנה 3, יצרף פקיד בית המשפט…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/small-claims.md",
+        "references/sources.md",
+        "references/website.md",
+        "templates/accessibility-statement.md",
+        "templates/natz-objection.md",
+        "templates/small-claim.md"
+      ],
+      "related_quotes": [
+        "…גוף כתב התביעה לא יעלה על חמישה עמודים. סעיף 4…",
+        "…תשל״ז–1976“. סעיף – '''טופס 1:''' (בוטל ביום 11.4.2025, הביטול חל על הליכים שנפתחו החל מהמועד האמור): כתב תביעה (תקנה 3) סעיף –…"
+      ]
+    },
+    {
+      "id": "sc-reg4-defence-30",
+      "claim": "Small Claims Procedure Regulations reg. 4 (תקנה 4): the defendant is summoned to file a defence within 30 days of service of the summons.",
+      "numbers": [
+        "4",
+        "30"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "quote": "…לפי טופס 2 שבתוספת. (ב) בהזמנה לדין יוזמן הנתבע להגיש כתב הגנה תוך 30 יום מיום המצאת ההזמנה, ולהתייצב למשפט במועד שנקוב בהזמנה – אם הגיש כתב הגנה…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/fines.md",
+        "references/small-claims.md",
+        "references/sources.md"
+      ]
+    },
+    {
+      "id": "sc-reg7b1-service",
+      "claim": "Small Claims Procedure Regulations reg. 7(b1) (תקנה 7(ב1)): if the claim was not served by the clerk by 60 days before the hearing, the plaintiff or someone on their behalf serves it at least 40 days before the hearing.",
+      "numbers": [
+        "7",
+        "60",
+        "40"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "quote": "…(ב1) לא הומצא כתב התביעה עד 60 ימים לפני הדיון בידי פקיד בית המשפט כאמור בתקנת משנה (ב), ימציא התובע או מי מטעמו את כתב התביעה לנמענים 40 ימים לפחות לפני הדיון. (ג) המצאה של מסמך לפי תקנות אלה תהיה לפי הוראות פרק י״ט לתקנות סדר הדין האזרחי, והוא…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/small-claims.md"
+      ]
+    },
+    {
+      "id": "sc-reg11-15-16a",
+      "claim": "Small Claims Procedure Regulations: reg. 11 (תקנה 11) non-attendance: neither party appears -> struck; defendant appears and plaintiff does not -> dismissed; plaintiff appears and defendant does not -> judgment on the claim; reg. 15(a) judgment at the end of the hearing, deferrable up to 7 days; reg. 16A(b) court recess counts toward periods.",
+      "numbers": [
+        "11",
+        "15",
+        "7",
+        "16"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "quote": "…את טענותיהם ולהביא את ראיותיהם גם אם לא הוגש כתב הגנה כאמור. סעיף 11 – אי־התייצבות למשפט נמסרה על הדיון הודעה כראוי ואיש מבעלי הדין לא התייצב – תימחק התביעה; התייצב התובע והנתבע לא התייצב – יתן בית המשפט פסק דין על יסוד כתב התביעה, ובלבד שהתובע הצהיר בפני בית המשפט על אמיתות האמור בכתב תביעתו; התייצב הנתבע והתובע לא התייצב – תידחה התביעה. סעיף 12 – ביטול החלטה שלא בפני בעל דין ניתנה החלטה שלא בפני בעל דין והגיש בעל דין בקשה לביטולה תוך 30…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/small-claims.md"
+      ],
+      "related_quotes": [
+        "…ושאר הדברים שנאמרו בעת הדיון. סעיף 15 – פסק דין (א) בתום הדיון בתביעה יתן בית המשפט את פסק הדין, אולם הוא יהיה רשאי לדחות את מתן פסק הדין לתקופה שלא תעלה על 7 ימים. (ב) פסק…",
+        "…(ב) תקופת פגרה של בית המשפט תובא במניין הימים שנקבעו בתקנות אלה או שנקבעו בידי בית המשפט, זולת אם בית המשפט הורה אחרת. סעיף…"
+      ]
+    },
+    {
+      "id": "sc-appeal-30-days",
+      "claim": "Small claims appeal: by leave only to the District Court, 30 days from the day the judgment was given (reg. 16 as amended, proceedings opened from 11.4.2025); Kol Zchut: 15 days for proceedings opened before 11.4.2025.",
+      "numbers": [
+        "30",
+        "15",
+        "11.4.2025"
+      ],
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "quote": "…בזכות\") על פסק דין של בית המשפט לתביעות קטנות . כדי לערער על פסק דין של בית המשפט לתביעות קטנות יש להגיש בקשת רשות ערעור (בר\"ע) לבית המשפט המחוזי, שנמצא באותו מחוז בו נמצא בית המשפט שבו ניתן פסק הדין. לגבי הליכים שנפתחו לפני תאריך ה-11.04.2025 יש להגיש את בקשת הערעור בתוך 15 ימים . לגבי הליכים שנפתחו החל מתאריך ה-11.04.2025 יש להגיש את בקשת הערעור בתוך 30 ימים . בדרך כלל, ספירת…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch (page updated 1.7.2026), text grepped verbatim",
+      "appears_in": [
+        "references/small-claims.md"
+      ]
+    },
+    {
+      "id": "execution-7-and-14",
+      "claim": "Execution Law: s.7 (סעיף 7) the debtor has 20 days from service of the warning to comply or apply for an installments order; s.14(e)(1) (סעיף 14) no travel ban where the debtor's total adjudged debts in execution files are under 50,000 NIS.",
+      "numbers": [
+        "7",
+        "20",
+        "14",
+        "50,000"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C",
+      "quote": "…ביצוע, ימציא מנהל לשכת ההוצאה לפועל לחייב אזהרה שעליו למלא אחר פסק־הדין, או לשלם את החוב הפסוק בשיעורים שנקבעו בהוראת תשלום לפי סעיף 69א או בצו לפי סעיף 69(ב), או להגיש בקשה לצו תשלומים לפי סעיף 7א, והכל בתוך תקופה של 20 ימים מיום המצאת האזהרה, ואולם לעניין בקשה לביצוע פסק דין…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/small-claims.md",
+        "references/sources.md"
+      ],
+      "related_quotes": [
+        "…לא יצווה רשם ההוצאה לפועל כאמור בסעיף קטן (א) או (ג) אם סך החובות הפסוקים בתיקי ההוצאה לפועל של החייב קטן מ־50,000 שקלים חדשים. (2)…"
+      ]
+    },
+    {
+      "id": "cpl-17a-17d-total-price",
+      "claim": "Consumer Protection Law s.17A and s.17D (סעיף 17א, 17ד): 'total price' includes VAT, levies and any accompanying payment the consumer cannot practically waive; a dealer may not publish or quote a price unless it is the total price only and only in Israeli currency.",
+      "numbers": [
+        "17"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "…ושירותים לא יפרסם עוסק ולא ינקוב, במפורש או במשתמע, מחיר של נכס או של שירות המוצע לצרכן, אלא אם כן הוא המחיר הכולל בלבד ורק במטבע ישראלי. סעיף…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/website.md"
+      ],
+      "related_quotes": [
+        "…צו לפי סעיף קטן (ב) – ההוראות בחיקוק האחר עדיפות. סעיף 17א – הגדרות לענין פרק ד׳ בפרק זה, ”המחיר הכולל“ – מחיר הכולל את סך כל התשלומים בעבור נכס או שירות ואת סך כל המסים החלים עליהם או על מכירתם והנגבים על ידי עוסק, לרבות – (1) מס ערך מוסף, אגרות או תשלומי חובה; (2) כל…"
+      ]
+    },
+    {
+      "id": "special-sale-reg6",
+      "claim": "Consumer Protection (Credit Sales, Special Sale and Door-to-Door Transaction) Regulations 1983, reg. 6(1) (תקנה 6(1)): a dealer announcing a special sale must state the sale price and the price before the sale; if the pre-sale price was not in effect for at least 21 consecutive days before the sale began, state the period in which it was in effect.",
+      "numbers": [
+        "6",
+        "21",
+        "1983"
+      ],
+      "source_url": "https://www.nevo.co.il/law_html/law00/71677.htm",
+      "quote": "…(2) קבע העוסק מדד אחר יודיע לצרכן לאיזה מדד צמוד המחיר ואת דרך חישוב ההצמדה. מכירה מיוחדת 6. עוסק אשר הודיע ברבים או במקום העסק על מכירה מיוחדת של טובין חייב – (1) לציין בהודעתו את מחיר הטובין ומחירם בעסקו לפני המכירה המיוחדת; לא היה מחיר הטובין שלפני המכירה המיוחדת בתוקף 21 ימים רצופים לפחות לפני התחלת המכירה המיוחדת, יציין העוסק בהודעתו את התקופה שבה היה המחיר בתוקף; (2) להבהיר בהודעתו אלו טובין כלולים…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch, HTTP 200, text grepped verbatim",
+      "appears_in": [
+        "references/website.md",
+        "templates/terms-of-service.md"
+      ]
+    },
+    {
+      "id": "access-35a-35e",
+      "claim": "Equal Rights for Persons with Disabilities (Service Accessibility Adjustments) Regulations 2013: reg. 35A(a) (תקנה 35א) an internet service must be accessible under Israeli Standard 5568 at level AA; reg. 35E (תקנה 35ה) an accessibility statement must be posted in a prominent place, with the adjustments made, the accessibility coordinator's details where one must be appointed, and contact details for reporting missing accessibility; reg. 35A(d)(1) a deviation is a breach only if a notice demanding a fix was sent and it was not fixed within a reasonable time and no later than 60 days.",
+      "numbers": [
+        "35",
+        "5568",
+        "60",
+        "2013"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%95%D7%95%D7%99%D7%95%D7%9F_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%9C%D7%90%D7%A0%D7%A9%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%AA_%28%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA_%D7%9C%D7%A9%D7%99%D7%A8%D7%95%D7%AA%29",
+      "quote": "…סעיף 35ה – הצהרת נגישות בשירותי אינטרנט נוסף על האמור בתקנות 34 ו־91(ה), חייב יציין במקום בולט באתר האינטרנט שלו וביישום שהוא מפעיל, אם יש יישום כזה, הצהרה, בהתאם להנחיות הקבועות בתקן נגישות האינטרנט לעניין הצהרת נגישות, הכוללת מידע בדבר התאמות נגישות שביצע וכן פרטי רכז נגישות ודרכי ההתקשרות עמו, אם מחויב למנותו לפי החוק, ופרטים המאפשרים יצירת קשר לצורך הודעה על העדר התאמות נגישות או בקשה לביצוע הנגשה, לרבות דרישה לפי תקנה 35א(ד)(1). סעיף 35ו – פטורים ודרישות מופחתות בשירות אינטרנט (א) מורשה לנגישות השירות שנוכח, על סמך חוות דעת של איש מקצוע, כי חייב משתמש בשירותי…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "SKILL.md",
+        "references/website.md",
+        "templates/accessibility-statement.md"
+      ],
+      "related_quotes": [
+        "…כאמור; ”תקן נגישות אינטרנט“ – תקן ישראלי 5568 – קווים מנחים לנגישות תכנים באינטרנט, על חלקיו השונים ונספחיהם, כתיקונם מזמן…",
+        "…נגישות בשירות אינטרנט, למעט לעניין יישומים (אפליקציות) כמשמעותם בתקנה 35ג ולמדיה מבוססת זמן לפי תקן נגישות אינטרנט בהתאם לקווים המנחים הקבועים בו, ברמה AA, ובכפוף…",
+        "…אודות טופס כאמור, יעמדו בדרישות תקנה זו אף אם הוכן לפני המועד הקבוע בפסקה (1). (ד)(1) לא יראו סטייה מעמידה בהוראות סימן זה כהפרה של הוראות הנגישות, אלא אם כן נשלחה לחייב הודעה הדורשת ממנו לתקנה והחייב לא תיקנה בתוך זמן סביר אך לא יאוחר מ־60 ימים מיום קבלת ההודעה. (2) בלי…"
+      ]
+    },
+    {
+      "id": "access-35f-g-exemption",
+      "claim": "Service Accessibility Regulations reg. 35F(g) (תקנה 35ו(ז)): an osek patur, or a body whose average annual turnover does not exceed 100,000 NIS, is exempt from the internet accessibility adjustments. (The 300,000 NIS tier in reg. 35F(h) applied only until 26.10.2020.)",
+      "numbers": [
+        "35",
+        "100,000"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%95%D7%95%D7%99%D7%95%D7%9F_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%9C%D7%90%D7%A0%D7%A9%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%AA_%28%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA_%D7%9C%D7%A9%D7%99%D7%A8%D7%95%D7%AA%29",
+      "quote": "…שבה נוצר או נערך המסמך. (ז) חייב שהוא עוסק פטור כהגדרתו בסעיף 1 לחוק המע״מ או שהמחזור השנתי הממוצע שלו אינו עולה על 100,000 שקלים חדשים, יהיה פטור מביצוע התאמות נגישות לפי סימן זה. (ח) האמור בתקנת משנה (ז) יחול גם…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/website.md"
+      ]
+    },
+    {
+      "id": "privacy-11-notice",
+      "claim": "Privacy Protection Law s.11 (סעיף 11), as amended (Amendment 13, ס\"ח תשפ\"ד, 1430): a request for personal information for processing in a database must be accompanied by a notice stating: whether there is a legal duty to provide it or it depends on consent, and the consequence of refusing; the purpose; the name of the database controller and how to contact them; to whom it will be passed and why; and the rights of access and correction.",
+      "numbers": [
+        "11"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA",
+      "quote": "…אישי פניה לאדם לקבלת מידע אישי לשם עיבודו במאגר מידע תלווה בהודעה שיצויינו בה – (1) אם חלה על אותו אדם חובה חוקית למסור את המידע, או שמסירת המידע תלויה ברצונו ובהסכמתו ומהי תוצאת אי־ההסכמה; (2) המטרה אשר לשמה מבוקש המידע; (2א) שמו של בעל השליטה במאגר המידע, ודרכי ההתקשרות עימו; (3) למי יימסר המידע ומטרות המסירה; (4) קיומן של זכות עיון במידע האישי לפי סעיף 13 ושל זכות לבקש תיקון של המידע האישי לפי סעיף 14. סעיף 12 – מרשם מאגרי מידע (א) ראש הרשות ינהל מרשם מאגרי מידע אשר יהיה פתוח לעיונו של הציבור ויאפשר חיפוש בפרטיו. (ב) המרשם יכיל את הפרטים לרישום מאגר המידע כאמור בסעיף 9, למעט…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/sources.md",
+        "references/website.md",
+        "templates/privacy-policy.md"
+      ]
+    },
+    {
+      "id": "ppa-consent-opinion-2026",
+      "claim": "Privacy Protection Authority final opinion on consent, published 25.2.2026 (official page gov.il/he/pages/consent-2026, archived 20.4.2026; the archived copy is a JavaScript shell, so the text is quoted from a law-firm summary): active consent (opt-in) is required in certain circumstances, including non-essential profiling, power imbalances and direct-marketing services; the summary also notes the question whether embedding third-party tracking tools for advertising is reasonably connected to the service. No Israeli source found that mandates a 'reject all' button as prominent as 'accept all'; the skill presents that only as a recommendation.",
+      "numbers": [
+        "25.2.2026"
+      ],
+      "source_url": "https://www.shibolet.com/?p=24351",
+      "quote": "…כדי לאפשר שימוש אחר במידע ללא קבלת הסכמה חדשה. מנגנון קבלת ההסכמה (Opt-in לעומת Opt-Out) גילוי הדעת מבחין בין הסכמה אקטיבית (Opt-in) לבין הסכמה פסיבית (Opt-out). לעמדת הרשות, בנסיבות מסוימות יש לקבל הסכמה אקטיבית, לרבות: כאשר מדובר ב\"פרופיילינג\" שאינו נדרש או שאינו קשור ישירות למטרת השירות; כאשר קיימים פערי כוחות בין הצדדים; ובהקשר של שירותי דיוור ישיר. חזרה מהסכמה –…",
+      "verified_at": "2026-10-30",
+      "verified_via": "Live fetch, HTTP 200 (law-firm summary of the PPA opinion; the official gov.il page is a JavaScript shell in the archive), text grepped verbatim",
+      "appears_in": [
+        "references/sources.md",
+        "references/website.md",
+        "templates/privacy-policy.md"
+      ],
+      "related_quotes": [
+        "…בתאריך 25.2.2026 פרסמה הרשות להגנת הפרטיות (\" הרשות \") את הנוסח הסופי של גילוי הדעת בנושא הסכמה בדיני הגנת הפרטיות. גילוי…",
+        "…למשל, האם הטמעת כלי ניטור של צדדים שלישיים למטרות פרסום עולה כדי \"קשר סביר\" למאפייני השירות או שמא יש כאן דרישה סמויה להטמעת אמצעי ניהול הסכמות באתרים.…"
+      ],
+      "related_source_url": "https://www.gov.il/he/pages/consent-2026",
+      "wayback": "https://web.archive.org/web/20260420154902/https://www.gov.il/he/pages/consent-2026"
+    },
+    {
+      "id": "title-cpl",
+      "claim": "Official title: חוק הגנת הצרכן, התשמ״א–1981.",
+      "numbers": [
+        "1981"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
+      "quote": "חוק הגנת הצרכן, התשמ״א–1981",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/consumer.md",
+        "references/sources.md",
+        "references/website.md",
+        "templates/demand-letter.md",
+        "templates/small-claim.md"
+      ]
+    },
+    {
+      "id": "title-csdp",
+      "claim": "Official title: חוק סדר הדין הפלילי [נוסח משולב], התשמ״ב–1982.",
+      "numbers": [
+        "1982"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
+      "quote": "חוק סדר הדין הפלילי [נוסח משולב], התשמ״ב–1982",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
+      "appears_in": [
+        "references/sources.md",
+        "templates/demand-letter.md",
+        "templates/parking-cancellation.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "title-tikshoret",
+      "claim": "Official title: חוק התקשורת (בזק ושידורים), התשמ״ב–1982.",
+      "numbers": [
+        "1982"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%A7%D7%A9%D7%95%D7%A8%D7%AA_%28%D7%91%D7%96%D7%A7_%D7%95%D7%A9%D7%99%D7%93%D7%95%D7%A8%D7%99%D7%9D%29",
+      "quote": "חוק התקשורת (בזק ושידורים), התשמ״ב–1982",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/sources.md",
+        "templates/demand-letter.md"
+      ]
+    },
+    {
+      "id": "title-mecher",
+      "claim": "Official title: חוק המכר, תשכ״ח–1968.",
+      "numbers": [
+        "1968"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8",
+      "quote": "חוק המכר, תשכ״ח–1968",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/sources.md",
+        "templates/demand-letter.md",
+        "templates/small-claim.md"
+      ]
+    },
+    {
+      "id": "title-warranty",
+      "claim": "Official title: תקנות הגנת הצרכן (אחריות ושירות לאחר מכירה), התשס״ו–2006.",
+      "numbers": [
+        "2006"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F_%28%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA_%D7%95%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%9B%D7%99%D7%A8%D7%94%29",
+      "quote": "תקנות הגנת הצרכן (אחריות ושירות לאחר מכירה), התשס״ו–2006",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/sources.md",
+        "templates/demand-letter.md",
+        "templates/small-claim.md"
+      ]
+    },
+    {
+      "id": "title-access",
+      "claim": "Official title: תקנות שוויון זכויות לאנשים עם מוגבלות (התאמות נגישות לשירות), התשע״ג–2013.",
+      "numbers": [
+        "2013"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%95%D7%95%D7%99%D7%95%D7%9F_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%9C%D7%90%D7%A0%D7%A9%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%95%D7%92%D7%91%D7%9C%D7%95%D7%AA_%28%D7%94%D7%AA%D7%90%D7%9E%D7%95%D7%AA_%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA_%D7%9C%D7%A9%D7%99%D7%A8%D7%95%D7%AA%29",
+      "quote": "תקנות שוויון זכויות לאנשים עם מוגבלות (התאמות נגישות לשירות), התשע״ג–2013",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/sources.md",
+        "references/website.md",
+        "templates/accessibility-statement.md"
+      ]
+    },
+    {
+      "id": "title-admin",
+      "claim": "Official title: חוק הפרות תעבורה מינהליות, התשפ״ד–2024.",
+      "numbers": [
+        "2024"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%A8%D7%95%D7%AA_%D7%AA%D7%A2%D7%91%D7%95%D7%A8%D7%94_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%95%D7%AA",
+      "quote": "חוק הפרות תעבורה מינהליות, התשפ״ד–2024",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/sources.md",
+        "templates/natz-objection.md",
+        "templates/traffic-objection.md"
+      ]
+    },
+    {
+      "id": "title-sc-regs",
+      "claim": "Official title: תקנות שיפוט בתביעות קטנות (סדרי דין), תשל״ז–1976.",
+      "numbers": [
+        "1976"
+      ],
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "quote": "תקנות שיפוט בתביעות קטנות (סדרי דין), תשל״ז–1976",
+      "verified_at": "2026-10-30",
+      "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
+      "appears_in": [
+        "references/small-claims.md",
+        "references/sources.md"
+      ]
+    }
+  ]
+}

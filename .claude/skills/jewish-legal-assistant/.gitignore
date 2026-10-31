@@ -1,0 +1,5 @@
+_sources/
+__pycache__/
+*.pyc
+.DS_Store
+tests/results/*.raw.json

@@ -1,0 +1,17 @@
+{
+  "scenario": "08-website-audit.md",
+  "duration_s": 102.6,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Glob:"
+  ],
+  "cost_usd": 0.7141158999999999,
+  "stderr_tail": ""
+}

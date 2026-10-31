@@ -1,0 +1,15 @@
+{
+  "scenario": "01-parking-faded-marking.md",
+  "duration_s": 109.4,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Bash:cd <tmp>"
+  ],
+  "cost_usd": 0.791121,
+  "stderr_tail": ""
+}

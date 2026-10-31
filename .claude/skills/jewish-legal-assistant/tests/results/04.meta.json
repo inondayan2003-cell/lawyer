@@ -1,0 +1,16 @@
+{
+  "scenario": "04-natz-taxi.md",
+  "duration_s": 103.1,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Read:",
+    "Bash:cd <tmp>",
+    "Bash:python3 <tmp>",
+    "Read:",
+    "Read:"
+  ],
+  "cost_usd": 0.8099309,
+  "stderr_tail": ""
+}

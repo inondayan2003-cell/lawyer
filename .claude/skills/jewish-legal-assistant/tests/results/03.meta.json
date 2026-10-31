@@ -1,0 +1,15 @@
+{
+  "scenario": "03-camera-other-driver.md",
+  "duration_s": 99.5,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Bash:cd <tmp>"
+  ],
+  "cost_usd": 0.7404958,
+  "stderr_tail": ""
+}
