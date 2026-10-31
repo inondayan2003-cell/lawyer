@@ -45,6 +45,42 @@ function lateFinding(type, track, flag, offence, sent, served) {
 }
 
 /**
+ * מד חוזק הטענות. זה לא סיכוי באחוזים: אין לנו נתונים על שיעורי ביטול,
+ * והסקיל אוסר להבטיח תוצאה. המד מסכם רק את הציונים מטבלת העילות.
+ * level: 0 = חלש, 1 = בינוני, 2 = חזק, 3 = חזק מאוד
+ */
+export function caseStrength(findings, firstItem, secondItem) {
+  const strong = findings.filter((f) => f.score === 'strong').length;
+  const medium = findings.filter((f) => f.score === 'medium').length;
+  let level;
+  let text;
+  if (strong >= 2) {
+    level = 3;
+    text = 'יש כמה טענות חזקות. אם תצליחו להוכיח אותן, יש להן בסיס ממשי בחוק לביטול הדוח.';
+  } else if (strong === 1) {
+    level = 2;
+    text = 'יש טענה חזקה אחת. אם תצליחו להוכיח אותה, יש לה בסיס בחוק לביטול הדוח.';
+  } else if (medium > 0) {
+    level = 1;
+    text = 'הטענות תלויות בשיקול הדעת של הרשות. יש על מה לערער, אבל התוצאה פתוחה.';
+  } else {
+    level = 0;
+    text = 'לא מצאנו טענה עם בסיס בחוק לפי מה שסיפרתם.';
+  }
+  const caveats = ['הכול תלוי בראיות: טענה בלי צילום או מסמך נחלשת מאוד.'];
+  const bothExpired = firstItem.daysLeft != null && firstItem.daysLeft < 0 && secondItem.daysLeft < 0;
+  if (bothExpired) {
+    level = Math.min(level, 0);
+    caveats.unshift('המועדים להגשה עברו, ולכן גם טענה טובה כמעט לא תעזור בלי אישור להגיש באיחור.');
+  } else if (firstItem.daysLeft != null && firstItem.daysLeft < 0) {
+    level = Math.min(level, 1);
+    caveats.unshift('המועד לשלב הראשון עבר, ולכן נשאר רק השלב השני.');
+  }
+  const LABELS = ['חלש', 'בינוני', 'חזק', 'חזק מאוד'];
+  return { level, label: LABELS[level], text, caveats };
+}
+
+/**
  * input = {
  *   details: { type, authorityKind, city, ticketNumber, offenceDate, time, location, offenceText,
  *              fine, plate, sentDate, servedDate, speeding, printedTrack, authorityEmail },
@@ -167,6 +203,7 @@ export function analyze(input) {
   }
 
   return {
+    strength: caseStrength(findings, firstItem, secondItem),
     expiredNote,
     details, deadlines: dl, letterTrack,
     trackLabel: TRACK_LABEL[dl.track],

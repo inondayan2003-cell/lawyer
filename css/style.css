@@ -163,3 +163,11 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--brand); out
 @media print {
   .topbar, .progress, .footer, .nav, .actions, .send-box, .btn { display: none !important; }
 }
+
+.gauge { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin: 8px 0 4px; }
+.gauge .seg { height: 38px; border-radius: 8px; background: var(--line); color: var(--muted); display: flex; align-items: center; justify-content: center; font-size: .8rem; font-weight: 600; }
+.gauge .seg.on.s0 { background: #f3b4b4; color: #6b1515; }
+.gauge .seg.on.s1 { background: #ffd98a; color: #5c3d00; }
+.gauge .seg.on.s2 { background: #9ddcb4; color: #0d4f28; }
+.gauge .seg.on.s3 { background: #34a465; color: #fff; }
+.gauge-label { font-size: 1.3rem; font-weight: 800; margin: 6px 0 2px; }

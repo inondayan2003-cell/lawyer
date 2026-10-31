@@ -313,6 +313,17 @@ function viewResults() {
     ${r.trackWarning ? `<div class="alert info">${esc(r.trackWarning)}</div>` : ''}
     ${r.deadlines.printedConflict ? `<div class="alert info">${esc(r.deadlines.printedConflict)}</div>` : ''}
 
+    <div class="card meter-card">
+      <h2>📊 מד חוזק הטענות</h2>
+      <div class="gauge" role="img" aria-label="חוזק הטענות: ${esc(r.strength.label)}">
+        ${['חלש', 'בינוני', 'חזק', 'חזק מאוד'].map((l, i) => `<div class="seg s${i} ${i <= r.strength.level ? 'on' : ''}"><span>${l}</span></div>`).join('')}
+      </div>
+      <p class="gauge-label">${esc(r.strength.label)}</p>
+      <p>${esc(r.strength.text)}</p>
+      ${r.strength.caveats.map((c) => `<p class="muted small">• ${esc(c)}</p>`).join('')}
+      <p class="muted small"><b>חשוב:</b> המד הוא לא סיכוי באחוזים, ומכתב ערעור לא אומר שהדוח בוטל. את ההחלטה מקבלים העירייה, המשטרה או בית המשפט. אף אחד לא יכול להבטיח ביטול.</p>
+    </div>
+
     <div class="card">
       <h2>${esc(r.deadlines.typeLabel)}: ${esc(r.trackLabel)}</h2>
       <p>${esc(r.deadlines.trackReason)}</p>

@@ -194,3 +194,14 @@ test('קריאת טקסט: נת"צ ומשטרה', () => {
   assert.equal(parseTicketText('משטרת ישראל מצלמת מהירות').type, 'camera');
   assert.equal(parseTicketText('משטרת ישראל').authorityKind, 'police');
 });
+
+test('מד חוזק: לא אחוזים, לפי הציונים והמועדים', () => {
+  const base = { today: TODAY, details: { type: 'parking', city: 'חיפה', offenceDate: '2026-10-20', servedDate: '2026-10-22' } };
+  assert.equal(analyze({ ...base, answers: { p_no_sign: { value: 'yes' }, p_faded: { value: 'yes' } } }).strength.label, 'חזק מאוד');
+  assert.equal(analyze({ ...base, answers: { p_no_sign: { value: 'yes' } } }).strength.label, 'חזק');
+  assert.equal(analyze({ ...base, answers: { p_meter: { value: 'yes' } } }).strength.label, 'בינוני');
+  assert.equal(analyze(base).strength.label, 'חלש');
+  const old = analyze({ today: TODAY, details: { type: 'parking', city: 'חיפה', offenceDate: '2026-08-20', servedDate: '2026-08-25' }, answers: { p_no_sign: { value: 'yes' } } });
+  assert.equal(old.strength.label, 'בינוני');
+  assert.doesNotMatch(JSON.stringify(old.strength), /%|בוטל|בטל/);
+});
