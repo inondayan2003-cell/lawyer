@@ -171,3 +171,15 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--brand); out
 .gauge .seg.on.s2 { background: #9ddcb4; color: #0d4f28; }
 .gauge .seg.on.s3 { background: #34a465; color: #fff; }
 .gauge-label { font-size: 1.3rem; font-weight: 800; margin: 6px 0 2px; }
+
+.upload-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.upload-btn {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+  border: 2px dashed #b9c3da; border-radius: var(--radius); padding: 22px 10px; text-align: center;
+  cursor: pointer; background: #fafbff; font-weight: 600; min-height: 130px;
+}
+.upload-btn:hover { border-color: var(--brand); }
+.upload-btn input { display: none; }
+.upload-btn.disabled { opacity: .6; cursor: progress; }
+.upload.preview { min-height: 0; padding: 12px; margin-bottom: 12px; cursor: default; }
+@media (max-width: 360px) { .upload-choices { grid-template-columns: 1fr; } }

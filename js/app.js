@@ -135,12 +135,19 @@ function viewHome() {
 function viewPhoto() {
   const busy = ocrState && !ocrState.error && ocrState.progress < 1;
   return `<section class="card">
-    <h2>שלב 1: צילום הדוח</h2>
-    <p>צלמו את הדוח ישר, באור טוב, כשכל הטקסט בתוך התמונה. המערכת תנסה לקרוא ממנו את הפרטים, ובשלב הבא תוכלו לבדוק ולתקן.</p>
-    <label class="upload ${busy ? 'disabled' : ''}">
-      <input type="file" accept="image/*" capture="environment" id="photo-input" ${busy ? 'disabled' : ''}>
-      ${photoUrl ? `<img src="${photoUrl}" alt="תמונת הדוח">` : '<span class="upload-icon">📷</span><span>לחצו כאן כדי לצלם או לבחור תמונה</span>'}
-    </label>
+    <h2>שלב 1: תמונה של הדוח</h2>
+    <p>צלמו את הדוח עכשיו, או בחרו תמונה שכבר יש לכם בגלריה. התמונה צריכה להיות ישרה וברורה, וכל הטקסט בתוכה. המערכת תנסה לקרוא ממנה את הפרטים, ובשלב הבא תוכלו לבדוק ולתקן.</p>
+    ${photoUrl ? `<div class="upload preview"><img src="${photoUrl}" alt="תמונת הדוח"></div>` : ''}
+    <div class="upload-choices">
+      <label class="upload-btn ${busy ? 'disabled' : ''}">
+        <input type="file" accept="image/*" capture="environment" class="photo-input" ${busy ? 'disabled' : ''}>
+        <span class="upload-icon">📷</span><span>${photoUrl ? 'לצלם שוב' : 'לצלם את הדוח'}</span>
+      </label>
+      <label class="upload-btn ${busy ? 'disabled' : ''}">
+        <input type="file" accept="image/*" class="photo-input" ${busy ? 'disabled' : ''}>
+        <span class="upload-icon">🖼️</span><span>${photoUrl ? 'לבחור תמונה אחרת' : 'לבחור מהגלריה'}</span>
+      </label>
+    </div>
     ${ocrState ? `<div class="ocr-status">
       ${ocrState.error ? `<div class="alert err">${esc(ocrState.error)} אפשר להמשיך ולהקליד את הפרטים בעצמכם.</div>` : `
         <div class="meter"><div style="width:${Math.round(ocrState.progress * 100)}%"></div></div>
@@ -496,7 +503,7 @@ $app.addEventListener('input', (e) => {
 
 $app.addEventListener('change', (e) => {
   const el = e.target;
-  if (el.id === 'photo-input') { handlePhoto(el.files[0]); return; }
+  if (el.classList.contains('photo-input')) { handlePhoto(el.files[0]); return; }
   if (el.dataset.radio) {
     const name = el.dataset.radio;
     if (name === 'otherDriver.yes') S.otherDriver.yes = el.value === 'other';
